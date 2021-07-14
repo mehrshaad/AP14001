@@ -3,8 +3,7 @@
 
 * {
     box-sizing: border-box;
-    animation: forwards 3s;
-    animation: loading 1s forwards;
+    animation: loading 1.5s forwards;
 
 }
 
@@ -45,23 +44,13 @@ html {
 
 }
 
-a:link {
-    font-family: Tahoma, Geneva, sans-serif;
-    font-size: 20px;
-    color: #06C;
+.link {
+    color: aquamarine;
+}
+
+.link:hover {
+    color: aqua;
     text-decoration: none;
-}
-
-a:visited {
-    color: mediumvioletred;
-}
-
-a:hover {
-    color: #008CC7;
-}
-
-a:active {
-    background-color: #999;
 }
 
 

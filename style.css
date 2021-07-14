@@ -29,6 +29,12 @@ html {
     background: #eee;
     font-family: 'Ubuntu', sans-serif;
     height: 100%;
+    background-image: url("images/IMG_8865blur.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .box {
@@ -58,20 +64,9 @@ a:active {
     background-color: #999;
 }
 
-.bg-image {
-    background-image: url("images/IMG_8865blur.jpg");
-    height: 100%;
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    background-attachment: fixed;
-    background-size: cover;
-    padding: 50px;
-    margin-bottom: 80px;
-}
 
 .bg-text {
-    /* background-color: rgba(0, 0, 0, 0.6); */
-    height: 40vh;
+    height: 100vh;
     padding: 2rem;
     /* width: 15rem; */
     color: white;

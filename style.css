@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+
+* {
+    box-sizing: border-box;
+    animation: forwards 3s;
+    animation: loading 1s forwards;
+
+}
+
+.font {
+    font-family: "Dancing Script", cursive;
+}
+
+@keyframes loading {
+    0% {
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+    }
+
+    100% {
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+    }
+}
+
+body,
+html {
+    background: #eee;
+    font-family: 'Ubuntu', sans-serif;
+    height: 100%;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+a:link {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    color: #06C;
+    text-decoration: none;
+}
+
+a:visited {
+    color: mediumvioletred;
+}
+
+a:hover {
+    color: #008CC7;
+}
+
+a:active {
+    background-color: #999;
+}
+
+.bg-image {
+    background-image: url("images/IMG_8865blur.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px;
+    margin-bottom: 80px;
+}
+
+.bg-text {
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    height: 40vh;
+    padding: 2rem;
+    /* width: 15rem; */
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 118px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+}
+
+.footer {
+    margin-top: 50px;
+    background-color: rgba(3, 3, 31, 0.596);
+    color: black;
+    border-radius: 10px;
+}
+
+.btn-hover {
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 60px;
+    min-height: 198px;
+    text-align: center;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    color: #eee;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}

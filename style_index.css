@@ -7,7 +7,7 @@
 
 }
 
-.font {
+.cursive-font {
     font-family: "Dancing Script", cursive;
 }
 
@@ -44,6 +44,10 @@ html {
 
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .link {
     color: aquamarine;
 }
@@ -53,6 +57,10 @@ html {
     text-decoration: none;
 }
 
+.link:focus {
+    color: aqua;
+    outline: none;
+}
 
 .bg-text {
     height: 100vh;
@@ -104,5 +112,6 @@ html {
 }
 
 .btn-hover:focus {
+    background-position: 100% 0;
     outline: none;
 }

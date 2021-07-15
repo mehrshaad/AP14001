@@ -41,6 +41,15 @@ hr {
     background-color: #333;
 }
 
+.header {
+    font-family: Copperplate,
+        "Copperplate Gothic Light",
+        fantasy;
+    font-size: 30px;
+    padding-top: 3%;
+    text-align: center;
+}
+
 .credits h4 {
     margin-top: 1vh;
     font-family: 'Ubuntu', sans-serif;
@@ -54,18 +63,22 @@ hr {
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.658) 0 0 5em;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
 }
 
 .bg-imp {
     margin: 3%;
     background-color: rgba(212, 75, 75, 0.6);
+    color: rgb(85, 8, 8);
     border-radius: 10px;
+    border: 1px solid rgb(85, 8, 8);
     box-shadow: rgba(0, 0, 0, 0.658) 0 0 5em;
     text-align: left;
-    padding-top: 1%;
-    padding-left: 10%;
-    padding-bottom: 10px;
+    padding: 1% 10%;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Consolas';
 }
 
 .img {

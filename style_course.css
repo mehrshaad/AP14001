@@ -4,7 +4,7 @@
 
 :root {
     --bg: rgba(255, 255, 255, 0.6);
-    --title-text: black;
+    --title-text: #212529;
     --des-text: black;
 }
 

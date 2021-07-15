@@ -5,6 +5,8 @@
   --color2: #ddd;
   /*background when hover*/
   --color3: #fbfbfba6;
+  /*info color*/
+  --color4: rgb(100, 100, 100);
 }
 
 .card {
@@ -193,6 +195,7 @@
 
 .card--btn a .moreinfo i {
   margin-right: 5px;
+  color: var(--color4);
 }
 
 .card--social {

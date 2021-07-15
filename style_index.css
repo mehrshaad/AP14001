@@ -47,11 +47,13 @@ html {
 
 .link {
     color: aquamarine;
+    transition: all 0.4s ease-in-out;
 }
 
 .link:hover {
     color: aqua;
     text-decoration: none;
+    transition: all 0.4s ease-in-out;
 }
 
 .link:focus {
@@ -91,7 +93,7 @@ html {
     border-radius: 10px;
 }
 
-.btn {
+.card-s {
     font-family: 'Ubuntu',
         sans-serif;
     margin-top: 75px;
@@ -104,25 +106,33 @@ html {
     background-size: 300% 100%;
     color: #eee;
     border-radius: 20px;
-    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
-    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
-    transition: all .4s ease-in-out;
+    background-image: linear-gradient(45deg, #29323c, #485563, #1f6b5ed0, #6c8a71);
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.705);
+    transition: all 0.4s ease-in-out;
 }
 
-.btn h4 {
+.card-s h4 {
+    color: whitesmoke;
     font-weight: bold;
+    transition: all 0.4s ease-in-out;
 }
 
-.btn p {
+
+.card-s p {
     font-size: smaller;
+    color: white;
 }
 
-.btn:hover {
-    background-position: 100% 0;
-    transition: all .4s ease-in-out;
-}
-
-.btn:focus {
+.card-s:hover,
+.card-s:focus {
     background-position: 100% 0;
     outline: none;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.card-s:hover h4,
+.card-s:focus h4 {
+    color: lightsalmon;
+    transition: all 0.4s ease-in-out;
 }

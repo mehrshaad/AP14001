@@ -47,18 +47,17 @@ html {
 
 .link {
     color: aquamarine;
+    /* border: 1px solid; */
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
     transition: all 0.4s ease-in-out;
 }
 
-.link:hover {
-    color: aqua;
-    text-decoration: none;
-    transition: all 0.4s ease-in-out;
-}
-
+.link:hover,
 .link:focus {
     color: aqua;
-    outline: none;
+    border-bottom-color:rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
 }
 
 .bg-text {

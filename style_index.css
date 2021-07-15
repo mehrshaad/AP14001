@@ -41,6 +41,11 @@ hr {
     background-color: #333;
 }
 
+.cursive-font {
+    font-family: "Dancing Script", cursive;
+}
+
+
 .credits h4 {
     margin-top: 1vh;
     font-family: 'Ubuntu', sans-serif;
@@ -94,11 +99,6 @@ hr {
     margin-bottom: 80px;
     border-radius: 10px;
 }
-
-.cursive-font {
-    font-family: "Dancing Script", cursive;
-}
-
 
 
 .card-s {

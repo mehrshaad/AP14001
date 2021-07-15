@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
 
+:root {
+    --bg: rgba(255, 255, 255, 0.6);
+    --title-text: black;
+    --des-text: black;
+}
+
 * {
     box-sizing: border-box;
     animation: loading 1.5s forwards;
@@ -38,31 +44,41 @@ html {
     text-align: center;
 }
 
+hr {
+    border: none;
+    height: 1px;
+    width: 50%;
+    color: #333;
+    background-color: #333;
+}
+
+.credits h4 {
+    margin-top: 1vh;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    font-size: 16px;
+}
 
 .cursive-font {
     font-family: "Dancing Script", cursive;
 }
 
-.footer {
-    font-family: 'Ubuntu',sans-serif;
-    font-size: 16px;
-}
-.box-margin {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.book1{
+.book1 {
     background-image: url(images/book1.jpg);
     height: 474px;
     border-radius: 5px;
     margin-right: 10px;
     width: 352px;
-    transform: scale(0.8) translate(-10em,2vh);
+    transform: scale(0.8) translate(-10em, 2vh);
     cursor: pointer;
     align-items: center;
     align-content: center;
+    transition: .3s ease-in-out;
+    border: 3px solid white;
 }
-.book2{
+
+
+.book2 {
     background-image: url(images/book2.jpg);
     height: 500px;
     border-radius: 5px;
@@ -72,21 +88,43 @@ html {
     cursor: pointer;
     align-items: center;
     align-content: center;
+    transition: .3s ease-in-out;
+    border: 3px solid white;
 }
-.title{
-    background-color: rgba(165, 165, 165, 0.459);
+
+.book1:hover {
+    transform: scale(0.8) translate(-10em, 4vh);
+    transition: .3s ease-in-out;
+}
+
+.book2:hover {
+    transform: scale(0.75) translate(-12em, 2vh);
+    transition: .3s ease-in-out;
+}
+
+.title {
+    font-family: Copperplate,
+        "Copperplate Gothic Light",
+        fantasy;
+    font-size: 30px;
+    padding: 10px 0px;
+    background-color: var(--bg);
     border-radius: 10px;
-    color: black;
+    color: var(--title-text);
+
 }
-.description{
-    color: #eee;
+
+.description {
+    font-family: 'Consolas';
+    font-size: 18px;
+    padding: 0px 10px;
+    color: var(--des-text);
 }
-h3{
-    color: rgb(255, 255, 255);
-}
-.bg-div{
+
+.bg-div {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgba(165, 165, 165, 0.459);
+    background-color: var(--bg);
+    margin-bottom: 2vh;
     border-radius: 10px;
 }

@@ -33,6 +33,13 @@ html {
     background-size: cover;
 }
 
+.credits h4 {
+    margin-top: 1vh;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
 .box {
     position: relative;
     width: 100%;
@@ -55,7 +62,7 @@ html {
 .link:hover,
 .link:focus {
     color: aqua;
-    border-bottom-color:rgba(255, 255, 255, 0.5);
+    border-bottom-color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
     transition: all 0.4s ease-in-out;
 }
@@ -85,12 +92,6 @@ html {
 }
 
 
-.footer {
-    margin-top: 50px;
-    background-color: rgba(3, 3, 31, 0.596);
-    color: black;
-    border-radius: 10px;
-}
 
 .card-s {
     font-family: 'Ubuntu',

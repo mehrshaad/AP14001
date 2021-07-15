@@ -7,9 +7,6 @@
 
 }
 
-.cursive-font {
-    font-family: "Dancing Script", cursive;
-}
 
 @keyframes loading {
     0% {
@@ -82,6 +79,11 @@ html {
     border-radius: 10px;
 }
 
+.cursive-font {
+    font-family: "Dancing Script", cursive;
+}
+
+
 .footer {
     margin-top: 50px;
     background-color: rgba(3, 3, 31, 0.596);
@@ -89,14 +91,15 @@ html {
     border-radius: 10px;
 }
 
-.btn-hover {
+.btn {
+    font-family: 'Ubuntu',
+        sans-serif;
     margin-top: 75px;
     padding-bottom: 30px;
     padding: 0 60px;
     min-height: 198px;
     text-align: center;
     cursor: pointer;
-    text-align: center;
     border: none;
     background-size: 300% 100%;
     color: #eee;
@@ -106,12 +109,20 @@ html {
     transition: all .4s ease-in-out;
 }
 
-.btn-hover:hover {
+.btn h4 {
+    font-weight: bold;
+}
+
+.btn p {
+    font-size: smaller;
+}
+
+.btn:hover {
     background-position: 100% 0;
     transition: all .4s ease-in-out;
 }
 
-.btn-hover:focus {
+.btn:focus {
     background-position: 100% 0;
     outline: none;
 }

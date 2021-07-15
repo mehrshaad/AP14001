@@ -41,6 +41,12 @@ hr {
     background-color: #333;
 }
 
+img {
+    padding: 0.2%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
 .cursive-font {
     font-family: "Dancing Script", cursive;
 }

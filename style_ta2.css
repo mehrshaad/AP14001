@@ -5,7 +5,7 @@
 } */
 
 .card {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.575);
   border: 1px solid #eee;
   border-radius: 10px;
   transition: all .35s ease;
@@ -55,6 +55,7 @@
 .card:hover .card--btn .moreinfo {
   opacity: 0;
   transform: translateY(-50px);
+
 }
 
 .card:hover .card--btn .fullprof {
@@ -74,6 +75,7 @@
   padding: 4px;
   transform-origin: center top;
   transition: all 0.4s ease-out;
+
 }
 
 .card figure img {
@@ -96,13 +98,14 @@
 
 .card--title h3 {
   margin: 0 0 .4em;
-  font-size: 1.4em;
+  font-size: 1.1em;
 }
 
 .card--title p {
   margin: 0 0 5em;
-  color: #a5a5a5;
+  color: #0a9191;
   font-size: .8em;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2.2px;
 }
@@ -163,6 +166,7 @@
   border-top: 1px solid #eee;
   letter-spacing: 0.5px;
   transition: all .4s ease;
+  border-radius: 10px;
 }
 
 .card--btn a .fullprof {
@@ -211,7 +215,7 @@
   transition: all 0.02s ease-out;
 }
 
-.card--social li.twitter {
+.card--social li.github {
   left: 72%;
   transform: translate(-200%, 1em) scale(0.7);
 }

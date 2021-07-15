@@ -133,5 +133,6 @@ html {
 .card-s:hover h4,
 .card-s:focus h4 {
     color: lightsalmon;
+    transform: translateY(-20%);
     transition: all 0.4s ease-in-out;
 }

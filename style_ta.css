@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+
 * {
     box-sizing: border-box;
     animation: loading 1.5s forwards;
@@ -33,7 +34,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    padding: 50px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -42,3 +43,12 @@ html {
     font-family: "Dancing Script", cursive;
 }
 
+/* .footer {
+    margin-top: 50px;
+    color: black;
+    border-radius: 10px;
+} */
+.box-margin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

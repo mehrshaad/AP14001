@@ -121,7 +121,7 @@ img {
     color: #eee;
     border-radius: 20px;
     background-image: linear-gradient(45deg, #29323c, #485563, #1f6b5ed0, #6c8a71);
-    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.705);
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.5);
     transition: all 0.4s ease-in-out;
 }
 
@@ -144,6 +144,8 @@ img {
 
 .card-s:hover,
 .card-s:focus {
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 1);
+
     background-position: 100% 0;
     outline: none;
     transition: all 0.4s ease-in-out;

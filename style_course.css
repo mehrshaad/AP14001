@@ -6,6 +6,8 @@
     --bg: rgba(255, 255, 255, 0.6);
     --title-text: #212529;
     --des-text: black;
+    --shadow: rgba(0, 0, 0, 0.5);
+    --shadow-hover: cyan;
 }
 
 * {
@@ -75,6 +77,8 @@ hr {
     align-content: center;
     transition: .3s ease-in-out;
     border: 3px solid white;
+    box-shadow: 0 0px 3vh 0px var(--shadow);
+
 }
 
 
@@ -90,16 +94,22 @@ hr {
     align-content: center;
     transition: .3s ease-in-out;
     border: 3px solid white;
+    box-shadow: 0 0px 3vh 0px var(--shadow);
+
 }
 
 .book1:hover {
     transform: scale(0.8) translate(-10em, 4vh);
     transition: .3s ease-in-out;
+    box-shadow: 0 0px 3vh 0px var(--shadow-hover);
+
 }
 
 .book2:hover {
     transform: scale(0.75) translate(-12em, 2vh);
     transition: .3s ease-in-out;
+    box-shadow: 0 0px 3vh 0px var(--shadow-hover);
+
 }
 
 .title {
@@ -111,6 +121,8 @@ hr {
     background-color: var(--bg);
     border-radius: 10px;
     color: var(--title-text);
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.705);
+
 
 }
 
@@ -127,4 +139,6 @@ hr {
     background-color: var(--bg);
     margin-bottom: 2vh;
     border-radius: 10px;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.705);
+
 }

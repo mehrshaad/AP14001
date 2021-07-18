@@ -100,7 +100,7 @@ img {
     padding: 20px;
     text-align: center;
     margin: 0px;
-    margin-top: 15vh;
+    margin-top: calc(5vh + 5%);
 }
 
 

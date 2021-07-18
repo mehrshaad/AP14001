@@ -24,7 +24,6 @@ body,
 html {
     background: #eee;
     font-family: 'Ubuntu', sans-serif;
-    height: 100%;
     background-image: url("images/IMG_8865blur.jpg");
     height: 100%;
     background-repeat: no-repeat;
@@ -44,7 +43,10 @@ hr {
 img {
     padding: 0.2%;
     border: 1px solid white;
+    margin-bottom: 0.4vh;
     border-radius: 50%;
+    width: calc(100px + 10vw);
+    height: calc(100px + 10vw);
 }
 
 .cursive-font {
@@ -56,15 +58,13 @@ img {
     margin-top: 1vh;
     font-family: 'Ubuntu', sans-serif;
     color: black;
-    font-size: 16px;
 }
 
 .box {
     position: relative;
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-
+    padding: 0 15%;
+    margin: 0%;
 }
 
 .underline {
@@ -101,7 +101,7 @@ img {
     width: 80%;
     padding: 20px;
     text-align: center;
-    margin-top: 118px;
+    margin-top: 15vh;
     margin-bottom: 80px;
     border-radius: 10px;
 }
@@ -112,11 +112,11 @@ img {
         sans-serif;
     margin: 2vh 0vh;
     /* padding-bottom: 30px; */
-    padding: 1vh 3vh;
-    min-height: 200px;
-    max-height: 200px;
-    min-width: 400px;
-    max-width: 400px;
+    padding: 1vh 2vw;
+    min-height: calc(80px + 13vh);
+    max-height: calc(80px + 13vh);
+    min-width: calc(230px + 11vw);
+    max-width: calc(230px + 11vw);
     text-align: center;
     cursor: pointer;
     border: none;
@@ -129,20 +129,23 @@ img {
 }
 
 .card-s h4 {
-    transform: translateY(50%);
+    text-align: center;
+    /* transform: translateY(-50%); */
+    transform: translateY(65%);
     color: whitesmoke;
     font-weight: bolder;
     font-size: x-large;
     /* position: sticky; */
+    font-size: calc(11px + 0.5vw + 0.4vh);
     transition: all 0.4s ease-in-out;
 }
 
 
 .card-s p {
-    font-size: smaller;
+    font-size: calc(5px + 0.4vw + 0.3vh);
     /* color: white; */
     color: #00000000;
-    transform: translateY(30%);
+    transform: translateY(35%);
     transition: all 0.4s ease-in-out;
 }
 
@@ -152,7 +155,6 @@ img {
     background-position: 100% 0;
     outline: none;
     transition: all 0.4s ease-in-out;
-
 }
 
 .card-s:hover h4,
@@ -165,6 +167,6 @@ img {
 .card-s:hover p,
 .card-s:focus p {
     color: white;
-    transform: translateY(-30%);
+    transform: translateY(-20%);
     transition: all 0.4s ease-in-out;
 }

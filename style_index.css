@@ -88,8 +88,6 @@ img {
 
 .bg-text {
     height: 100vh;
-    padding: 2rem;
-    /* width: 15rem; */
     color: white;
     font-weight: bold;
     border: 0px;
@@ -101,9 +99,8 @@ img {
     width: 80%;
     padding: 20px;
     text-align: center;
-    margin-top: 15vh;
-    margin-bottom: 80px;
-    border-radius: 10px;
+    margin-top: 25vh;
+    margin-bottom: 20vh;
 }
 
 
@@ -146,6 +143,7 @@ img {
     /* color: white; */
     color: #00000000;
     transform: translateY(35%);
+    font-weight: bold;
     transition: all 0.4s ease-in-out;
 }
 

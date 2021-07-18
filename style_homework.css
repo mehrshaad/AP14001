@@ -54,12 +54,13 @@ img {
     border: 1px solid white;
     border-radius: 50%;
 }
+
 .title {
     font-family: Copperplate,
         "Copperplate Gothic Light",
         fantasy;
-    font-size: 30px;
-    padding: 10px 0px;
+    font-size: calc(16px + 0.5vw + 0.5vh);
+    padding-top: 2%;
     color: var(--title-text);
 }
 
@@ -83,7 +84,7 @@ img {
     box-shadow: rgba(0, 0, 0, 0.658) 0 0 5em;
     text-align: left;
     padding: 1% 10%;
-    font-size: 18px;
+    font-size:calc(10px + 0.4vw + 0.3vh);
     font-weight: bold;
     font-family: 'Consolas';
 }
@@ -97,7 +98,6 @@ img {
     margin-top: 1vh;
     font-family: 'Ubuntu', sans-serif;
     color: black;
-    font-size: 16px;
 }
 
 table {
@@ -109,14 +109,13 @@ table {
 }
 
 th {
-    font-size: 18px;
+    font-size: calc(8px + 0.4vw + 0.3vh);
     font-weight: bold;
     font-family: 'Consolas';
 }
 
 td {
-    font-size: 16px;
-    /* font-weight: bold; */
+    font-size: calc(6px + 0.4vw + 0.3vh);
     font-family: 'Arial';
 
 }

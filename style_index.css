@@ -27,7 +27,7 @@ html {
     background-image: url("images/IMG_8865blur.jpg");
     height: 100%;
     background-repeat: no-repeat;
-    /* background-position: center; */
+    background-position: center;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -100,7 +100,7 @@ img {
     padding: 20px;
     text-align: center;
     margin: 0px;
-    margin-top: calc(5vh + 5%);
+    margin-top: calc(5vh + 3%);
 }
 
 

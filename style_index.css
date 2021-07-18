@@ -114,6 +114,9 @@ img {
     /* padding-bottom: 30px; */
     padding: 1vh 3vh;
     min-height: 200px;
+    max-height: 200px;
+    min-width: 400px;
+    max-width: 400px;
     text-align: center;
     cursor: pointer;
     border: none;
@@ -126,10 +129,11 @@ img {
 }
 
 .card-s h4 {
-    transform: translateY(70%);
+    transform: translateY(50%);
     color: whitesmoke;
     font-weight: bolder;
     font-size: x-large;
+    /* position: sticky; */
     transition: all 0.4s ease-in-out;
 }
 
@@ -145,7 +149,6 @@ img {
 .card-s:hover,
 .card-s:focus {
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 1);
-
     background-position: 100% 0;
     outline: none;
     transition: all 0.4s ease-in-out;

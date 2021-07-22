@@ -78,3 +78,44 @@ hr {
 .persian {
     font-family: 'IranYekan';
 }
+
+.btn-lang {
+    margin-top: 2vh;
+    font-family: 'Ubuntu',
+        sans-serif;
+    font-size: calc(7px + 0.3vw);
+    height: calc(1.5vh + 1.5vw);
+    min-height: calc(25px);
+    max-height: calc(32px);
+    width: calc(20vw);
+    max-width: calc(80px);
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    border: 1px solid white;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+}
+
+.btn-lang:nth-child(1) {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.btn-lang:nth-child(2) {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.btn-lang:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    border: 1px solid white;
+    outline: none;
+}
+
+.btn-lang:hover,
+.btn-lang:active {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-color: black;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+}

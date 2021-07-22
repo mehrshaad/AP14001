@@ -8,7 +8,6 @@ function translateToPersian() {
     a.classList.add('persian')
     a.style.fontFamily = 'IranYekan'
     a.innerHTML = 'انگلیسی'
-
     //header
     var a = document.getElementById('1')
     a.classList.add('persian')
@@ -19,49 +18,119 @@ function translateToPersian() {
                 </div>
             </h2>`
 
-    //instructor
-    var a = document.getElementById('2')
-    a.classList.add('persian')
-    a.innerHTML = `مدرس: <a class="link"
+    //main
+    try {
+        var a = document.getElementById('0')
+        a.innerText = 'برنامه سازی پیشرفته'
+
+        //instructor
+        var a = document.getElementById('2')
+        a.classList.add('persian')
+        a.innerHTML = `مدرس: <a class="link"
         href="https://staff.guilan.ac.ir/eskandari/" target="_blank">دکتر اسکندری</a>`
 
-    //
-    var a = document.getElementById('3')
-    a.classList.add('persian')
-    a.style.direction = "rtl"
-    a.innerHTML = `
+        //
+        var a = document.getElementById('3')
+        a.classList.add('persian')
+        a.style.direction = "rtl"
+        a.innerHTML = `
         امروزه، برنامه نویسی کامپیوتری به یکی از مهارتهای مورد نیاز در بسیاری از علوم تبدیل شده است. در این درس، با مفاهیم پیشرفته برنامه نویسی آشنا خواهیم شد. برنامه نویسی شیء گرا، ساختمان داده ها و طراحی و تحلیل الگوریتمهای کاربردی، از جمله مهمترین این مفاهیم هستند. اگرچه، تمامی این مفاهیم مستقل از یک زبان برنامه نویسی خاص قابل طرح می باشند، در این درس از زبان محبوب <a class="link" href="https://www.python.org/" target="_blank">پایتون</a> به عنوان ابزاری جهت پیاده سازی مفاهیم مورد نظر استفاده خواهیم کرد. دلیل این انتخاب، سادگی، محبوبیت و متن باز بودن این زبان برنامه نویسی است. در این درس، تمرکز ویژه ای بر فعالیت های عملی و گروهی خواهد بود. در طول یک ترم، دانشجویان با نحوه کدنویسی شیء گرا آشنا شده و این مفهوم را در قالب یک پروژه گروهی پایانی پیاده سازی خواهند کرد. در پایان این واحد درسی از دانشجویان محترم انتظار می رود تا بتوانند برای پروژه های بزرگ کلاس های مختلف را طراحی کرده، از ساختمان داده های مناسب برای آنها بهره برده و واسط های گرافیکی کارآمد طراحی کنند. جهت دریافت اطلاعات تکمیلی، به صفحه <a class="link"
         href="https://mehrshaad.github.io/testsite/syllabus.html">رئوس مطالب</a> مراجعه نمائید
         `
-    var a = document.getElementById('4')
-    a.classList.add('persian')
-    a.innerHTML = `رئوس مطالب`
+        var a = document.getElementById('4')
+        a.classList.add('persian')
+        a.innerHTML = `رئوس مطالب`
 
-    var a = document.getElementById('5')
-    a.classList.add('persian')
-    a.innerHTML = `فایل های درسی بارگذاری شده به همراه اطلاعاتی درباره منابع و جزئیات ریز نمرات`
+        var a = document.getElementById('5')
+        a.classList.add('persian')
+        a.innerHTML = `فایل های درسی بارگذاری شده به همراه اطلاعاتی درباره منابع و جزئیات ریز نمرات`
 
-    var a = document.getElementById('6')
-    a.classList.add('persian')
-    a.innerHTML = `تیم حل تمرین`
+        var a = document.getElementById('6')
+        a.classList.add('persian')
+        a.innerHTML = `تیم حل تمرین`
 
-    var a = document.getElementById('7')
-    a.classList.add('persian')
-    a.innerHTML = `لیست اعضای حل تمرین این ترم`
+        var a = document.getElementById('7')
+        a.classList.add('persian')
+        a.innerHTML = `لیست اعضای حل تمرین این ترم`
 
-    var a = document.getElementById('8')
-    a.classList.add('persian')
-    a.innerHTML = `پروژه های پایانی`
+        var a = document.getElementById('8')
+        a.classList.add('persian')
+        a.innerHTML = `پروژه های پایانی`
 
-    var a = document.getElementById('9')
-    a.classList.add('persian')
-    a.innerHTML = `اطلاعات کامل در مورد پروژه های پایانی`
-    var a = document.getElementById('10')
-    a.classList.add('persian')
-    a.innerHTML = `تکلیف`
-    var a = document.getElementById('11')
-    a.classList.add('persian')
-    a.innerHTML = `اطلاعاتی در مورد تمرین های ارسالی در طول ترم`
+        var a = document.getElementById('9')
+        a.classList.add('persian')
+        a.innerHTML = `اطلاعات کامل در مورد پروژه های پایانی`
+        var a = document.getElementById('10')
+        a.classList.add('persian')
+        a.innerHTML = `تکلیف`
+        var a = document.getElementById('11')
+        a.classList.add('persian')
+        a.innerHTML = `اطلاعاتی در مورد تمرین های ارسالی در طول ترم`
+    } catch { }
+
+    //syllabus
+    try {
+        var a = document.getElementById('12')
+        a.innerText = 'رئوس مطالب'
+
+        var a = document.getElementById('12.5')
+        a.style.direction = "rtl"
+
+        var a = document.getElementById('12.75')
+        a.innerText = 'محتویات'
+        a.style.fontFamily = 'IranYekan'
+
+
+        var a = document.getElementById('13')
+        a.innerText = 'شماره'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('14')
+        a.innerText = 'تاریخ'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('15')
+        a.innerText = 'موضوع جلسه'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('16')
+        a.innerText = 'مدرس(ها)'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('17')
+        a.innerText = 'لینک'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('18')
+        a.innerText = 'منابع'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('19')
+        a.innerText = 'اگرچه منبع منحصر به فردی برای برنامه نویسی پیشرفته مورد استفاده قرار نخواهد گرفت ولی کتاب های زیر میتوانند برای این درس مفید باشند.'
+        a.style.fontFamily = 'IranYekan'
+        a.style.direction = "rtl"
+
+        var a = document.getElementById('20')
+        a.innerText = 'جزئیات نمره'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('21')
+        a.innerText = 'میانترم : 4 نمره'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('22')
+        a.innerText = ' پایانترم :  10 نمره'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('23')
+        a.innerText = 'پروژه نهایی : 3 نمره'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('24')
+        a.innerText = 'تمرین ها : 1 نمره (به ازای هر یک)'
+        a.style.fontFamily = 'IranYekan'
+    } catch { }
+
 }
 
 
@@ -75,7 +144,6 @@ function translateToEnglish() {
     a.classList.remove('persian')
     a.style.fontFamily = "Comic Sans MS"
     a.innerHTML = 'English'
-
     var a = document.getElementById('1')
     a.classList.remove('persian')
     a.innerHTML = `Advanced Programming 1400-1401
@@ -84,14 +152,22 @@ function translateToEnglish() {
                 <h4 style="font-size: calc(3px + 0.5vw + 0.5vh);">© 2021 Copyright Guilan University</h4>
                 </div>
             </h2>`
-    var a = document.getElementById('2')
-    a.classList.remove('persian')
-    a.innerHTML = `Instructor: <a class="link"
+
+    //main
+    try {
+        var a = document.getElementById('0')
+        a.innerText = 'Advanced Programming'
+
+
+        var a = document.getElementById('2')
+        a.classList.remove('persian')
+        a.innerHTML = `Instructor: <a class="link"
         href="https://staff.guilan.ac.ir/eskandari/" target="_blank">Dr. Sadegh Eskandari</a>`
-    var a = document.getElementById('3')
-    a.classList.remove('persian')
-    a.style.direction = "ltr"
-    a.innerHTML = `Nowadays, programming is one of the most needed skills. In this lesson we'll learn some topics of
+
+        var a = document.getElementById('3')
+        a.classList.remove('persian')
+        a.style.direction = "ltr"
+        a.innerHTML = `Nowadays, programming is one of the most needed skills. In this lesson we'll learn some topics of
       advanced programming. Object oriented programming, data structure and algorithm analyzing are the most important
       ones.
       Although, all of these topics are independent from a special programming language, but we use one of the most
@@ -109,30 +185,115 @@ function translateToEnglish() {
       For more information visit the <a class="link"
         href="https://mehrshaad.github.io/testsite/syllabus.html">Syllabus</a> page.`
 
-    var a = document.getElementById('4')
-    a.classList.remove('persian')
-    a.innerHTML = `Syllabus`
-    var a = document.getElementById('5')
-    a.classList.remove('persian')
-    a.innerHTML = `Uploaded files and more information about resources of this lesson and scoring details`
-    var a = document.getElementById('6')
-    a.classList.remove('persian')
-    a.innerHTML = `Teaching Assistant Team`
-    var a = document.getElementById('7')
-    a.classList.remove('persian')
-    a.innerHTML = `A list of this semester teaching assistants and contacting information`
-    var a = document.getElementById('8')
-    a.classList.remove('persian')
-    a.innerHTML = `Final Projects`
-    var a = document.getElementById('9')
-    a.classList.remove('persian')
-    a.innerHTML = `Your final projects which you have to implement one of them for the end`
-    var a = document.getElementById('10')
-    a.classList.remove('persian')
-    a.innerHTML = `Homework`
-    var a = document.getElementById('11')
-    a.classList.remove('persian')
-    a.innerHTML = `More information about problem sets and their deadlines`
+        var a = document.getElementById('4')
+        a.classList.remove('persian')
+        a.innerHTML = `Syllabus`
+
+        var a = document.getElementById('5')
+
+        a.classList.remove('persian')
+        a.innerHTML = `Uploaded files and more information about resources of this lesson and scoring details`
+
+        var a = document.getElementById('6')
+        a.classList.remove('persian')
+        a.innerHTML = `Teaching Assistant Team`
+
+        var a = document.getElementById('7')
+        a.classList.remove('persian')
+        a.innerHTML = `A list of this semester teaching assistants and contacting information`
+
+        var a = document.getElementById('8')
+        a.classList.remove('persian')
+        a.innerHTML = `Final Projects`
+
+        var a = document.getElementById('9')
+        a.classList.remove('persian')
+        a.innerHTML = `Your final projects which you have to implement one of them for the end`
+
+        var a = document.getElementById('10')
+        a.classList.remove('persian')
+        a.innerHTML = `Homework`
+
+        var a = document.getElementById('11')
+        a.classList.remove('persian')
+        a.innerHTML = `More information about problem sets and their deadlines`
+    } catch { }
+
+    //syllabus
+    try {
+        var a = document.getElementById('12')
+        a.innerText = `Syllabus`
+
+        var a = document.getElementById('12.5')
+        a.style.direction = "ltr"
+
+        var a = document.getElementById('12.75')
+        a.classList.remove('persian')
+        a.style.fontFamily = "Comic Sans MS"
+        a.innerHTML = `Contents`
+
+        var a = document.getElementById('13')
+        a.classList.remove('persian')
+        a.style.fontFamily = "Consolas"
+        a.innerHTML = `Number`
+
+        var a = document.getElementById('14')
+        a.classList.remove('persian')
+        a.style.fontFamily = "Consolas"
+        a.innerHTML = `Date`
+
+        var a = document.getElementById('15')
+        a.classList.remove('persian')
+        a.style.fontFamily = "Consolas"
+        a.innerHTML = `Subject`
+
+        var a = document.getElementById('16')
+        a.classList.remove('persian')
+        a.style.fontFamily = "Consolas"
+        a.innerHTML = `Instructor(s)`
+
+        var a = document.getElementById('17')
+        a.classList.remove('persian')
+        a.style.fontFamily = "Consolas"
+        a.innerHTML = `link`
+
+        var a = document.getElementById('18')
+        a.classList.remove('persian')
+        a.style.fontFamily = "Comic Sans MS"
+        a.innerHTML = `Resources`
+
+        var a = document.getElementById('19')
+        a.classList.remove('persian')
+        a.style.fontFamily = "Consolas"
+        a.innerHTML = `Although we don't use any source book for advanced programming, but you
+            can read these books for improving your skills.`
+        a.style.direction = "ltr"
+
+        var a = document.getElementById('20')
+        a.classList.remove('persian')
+        a.style.fontFamily = "Comic Sans MS"
+        a.innerHTML = `Scoring Details`
+
+        var a = document.getElementById('21')
+        a.classList.remove('persian')
+        a.style.fontFamily = "Consolas"
+        a.innerHTML = `Midterm: 4 point`
+
+        var a = document.getElementById('22')
+        a.classList.remove('persian')
+        a.style.fontFamily = "Consolas"
+        a.innerHTML = `Final Exam: 10 point`
+
+        var a = document.getElementById('23')
+        a.classList.remove('persian')
+        a.style.fontFamily = "Consolas"
+        a.innerHTML = `Project: 3 point`
+
+        var a = document.getElementById('24')
+        a.classList.remove('persian')
+        a.style.fontFamily = "Consolas"
+        a.innerHTML = `Problem Set: 1 point (for each)`
+    } catch { }
 
 }
 window.addEventListener('load', function () {

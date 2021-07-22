@@ -12,7 +12,7 @@ body {
     text-align: center;
 }
 
-button {
+.btn-image {
     width: 38vh;
     height: 24vw;
     object-fit: cover;
@@ -28,15 +28,13 @@ button {
     box-shadow: 0 0px 3vh 0px var(--shadow);
 }
 
-button:hover {
+.btn-image:hover {
     transition: .3s ease-in-out;
     box-shadow: 0 0px 3vh 0px var(--shadow-hover);
 }
 
 .title {
-    font-family: Copperplate,
-        "Copperplate Gothic Light",
-        fantasy;
+    font-family: "Comic Sans MS";
     padding: 10px 0px;
     background-color: var(--bg);
     border-radius: 10px;

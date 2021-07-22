@@ -8,6 +8,10 @@
     --shadow-hover: cyan;
 }
 
+body {
+    text-align: center;
+}
+
 button {
     width: 38vh;
     height: 24vw;

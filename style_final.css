@@ -1,45 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
-
-* {
-    box-sizing: border-box;
-    animation: loading 1.5s forwards;
-
-}
-
-
-@keyframes loading {
-    0% {
-        filter: blur(8px);
-        -webkit-filter: blur(8px);
-    }
-
-    100% {
-        filter: blur(0px);
-        -webkit-filter: blur(0px);
-    }
-}
-
-body,
-html {
-    background: #eee;
-    font-family: 'Ubuntu', sans-serif;
-    height: 100%;
-    background-image: url("images/IMG_8865blur.jpg");
-    height: 100%;
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-hr {
-    border: none;
-    height: 1px;
-    width: 50%;
-    color: #333;
-    background-color: #333;
-}
+@import url("base.css");
 
 .header {
     font-family: Copperplate,
@@ -47,14 +6,7 @@ hr {
         fantasy;
     padding-top: 2%;
     text-align: center;
-    font-size:calc(16px + 0.5vw + 0.5vh);
-}
-
-.credits h4 {
-    margin-top: 1vh;
-    font-family: 'Ubuntu', sans-serif;
-    color: black;
-    font-size: 16px;
+    font-size: calc(16px + 0.5vw + 0.5vh);
 }
 
 .bg {
@@ -76,7 +28,7 @@ hr {
     box-shadow: rgba(0, 0, 0, 0.658) 0 0 5em;
     text-align: left;
     padding: 1% 10%;
-    font-size:calc(10px + 0.4vw + 0.3vh);
+    font-size: calc(10px + 0.4vw + 0.3vh);
     font-weight: bold;
     font-family: 'Consolas';
 }
@@ -93,8 +45,4 @@ hr {
 
 .img img {
     border-radius: 15px;
-}
-
-.cursive-font {
-    font-family: "Dancing Script", cursive;
 }

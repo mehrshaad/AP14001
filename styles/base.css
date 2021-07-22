@@ -48,7 +48,7 @@ body,
 html {
     background: #eee;
     font-family: 'Ubuntu', sans-serif;
-    background-image: url("images/IMG_8865blur.jpg");
+    background-image: url("../images/IMG_8865blur.jpg");
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;

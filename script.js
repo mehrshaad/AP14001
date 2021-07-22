@@ -1,17 +1,23 @@
 window.addEventListener('load', function () {
-    function changeCSS(id, html = null, css = 'persian') {
-        var element = document.getElementById(id);
-        if (html) {
-            element.innerHTML = html
-        }
-        element.classList.add(css);
-        console.log(element);
-    }
-    // changeCSS('header',
-    //     `برنامه سازی پیشرفته
-    //             <br>
-    //             <div class="credits">
-    //             <h4 id="header2" style="font-size: calc(3px + 0.5vw + 0.5vh);"></h4>
-    //             </div>
-    //         </h2>`);
+    document.getElementById('per').addEventListener('click', function () {
+        var a = document.getElementById('head')
+        a.classList.add('persian')
+        a.innerHTML = `برنامه سازی پیشرفته
+                <br>
+                <div class="credits">
+                <h4 class="persian" style="font-size: calc(3px + 0.5vw + 0.5vh);">دانشگاه گیلان 1400</h4>
+                </div>
+            </h2>`
+    })
+    document.getElementById('en').addEventListener('click', function () {
+        var a = document.getElementById('head')
+        a.classList.remove('persian')
+        a.innerHTML = `Advanced Programming
+                <br>
+                <div class="credits">
+                <h4 style="font-size: calc(3px + 0.5vw + 0.5vh);">© 2021 Copyright Guilan University</h4>
+                </div>
+            </h2>`
+
+    })
 })

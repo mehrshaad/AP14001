@@ -138,6 +138,11 @@ function translateToPersian() {
 
     // TAT
     try{
+
+        var a = document.getElementById('titleTA')
+        a.innerText = 'تیم حل تمرین'
+        a.style.fontFamily = 'IranYekan'
+
         var a = document.getElementById('kiyan')
         a.innerText = 'کیان رضایی'
         a.style.fontFamily = 'IranYekan'
@@ -420,6 +425,11 @@ function translateToEnglish() {
 
         // TAT
     try{
+
+        var a = document.getElementById('titleTA')
+        a.innerText = 'Teaching Assistance Team'
+        a.style.fontFamily = 'IranYekan'
+
         var a = document.getElementById('kiyan')
         a.innerText = 'kiyan rezaee'
         a.style.fontFamily = 'Consolas'

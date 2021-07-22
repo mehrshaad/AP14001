@@ -47,7 +47,7 @@
 body,
 html {
     background: #eee;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Comic Sans MS';
     background-image: url("../images/IMG_8865blur.jpg");
     height: 100%;
     background-repeat: no-repeat;
@@ -71,7 +71,7 @@ hr {
 
 .credits h4 {
     margin-top: 1vh;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Comic Sans MS';
     color: black;
 }
 

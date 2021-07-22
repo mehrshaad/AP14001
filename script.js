@@ -257,6 +257,44 @@ function translateToPersian() {
     catch{
 
     }
+        //homework page
+    try{
+        var a = document.getElementById('titleHomework')
+        a.innerText = 'صفحه تمرین ها'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('exer')
+        a.innerText = 'تمرین ها'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('notes')
+        a.innerText = 'نکات'
+        a.classList.add('persian')
+        a.style.textAlign = 'right'
+
+        var a = document.getElementById('notes_')
+        a.classList.add('persian')
+        a.style.direction = "rtl"
+        
+        var a = document.getElementById('li1')
+        a.innerText = 'باید نوشته شود'
+        a.classList.add('persian')
+        a.style.textAlign = 'right'
+
+        var a = document.getElementById('li2')
+        a.innerText = 'باید نوشته شود'
+        a.classList.add('persian')
+        a.style.textAlign = 'right'
+
+        var a = document.getElementById('li3')
+        a.innerText = 'باید نوشته شود'
+        a.classList.add('persian')
+        a.style.textAlign = 'right'
+
+    }
+    catch{
+
+    }
 
 }
 
@@ -546,6 +584,41 @@ function translateToEnglish() {
     catch{
 
     }
+
+      //homework page - font must change
+      try{
+        var a = document.getElementById('titleHomework')
+        a.innerText = 'Homework page'
+        a.style.fontFamily = ''
+
+        var a = document.getElementById('exer')
+        a.innerText = 'Exercise'
+        a.style.fontFamily = ''
+
+        var a = document.getElementById('notes')
+        a.innerText = 'notes'
+        a.style.textAlign = 'left'
+
+        var a = document.getElementById('notes_')
+        a.style.direction = "ltr"
+        
+        var a = document.getElementById('li1')
+        a.innerText = 'All of the exercises must be done individually.'
+        a.style.textAlign = 'left'
+
+        var a = document.getElementById('li2')
+        a.innerText = ''
+        a.style.textAlign = 'left'
+
+        var a = document.getElementById('li3')
+        a.innerText = 'Copied answer equals to 0 points for both sides.'
+        a.style.textAlign = 'left'
+        
+
+    }
+    catch{
+    }
+
 
 
 }

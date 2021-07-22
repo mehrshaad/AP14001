@@ -2,11 +2,12 @@
 <html lang="en">
 
 <head>
-    <title>Homework</title>
+    <title id="titleHomework"></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/homework.css">
+    <script src="script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -15,25 +16,29 @@
 </head>
 
 <body>
-    <h2 class="cursive-font" style="text-align: center;margin-top: 2em;font-size:calc(12px + 0.5vw + 0.5vh);">Advanced
-        Programming
-        1400-1401<br>
+    <h2 class="cursive-font" id="1" style="text-align: center;margin-top: 2em;font-size:calc(12px + 0.5vw + 0.5vh);">
+        <br>
         <div class="credits">
-            <h4 style="font-size: calc(3px + 0.5vw + 0.5vh);">© 2021 Copyright Guilan University</h4>
+          <h4 style="font-size: calc(3px + 0.5vw + 0.5vh);"></h4>
         </div>
-    </h2>
-    <hr>
+      </h2>
+      <div class="text-center">
+        <div class="btn-group" role="group">
+          <button type="button" id="en" class="btn-lang"></button>
+          <button type="button" id="per" class="btn-lang"></button>
+        </div>
+      </div>
+      <hr>
     <div class="bg container">
-        <h1 class="title">Exercises</h1>
-        <div class="bg-imp">
-            <h2 style="font-weight: bold;font-size:calc(14px + 0.5vw + 0.5vh);">NOTES</h2>
+        <h1 class="title" id="exer"></h1>
+        <div class="bg-imp" id="notes_">
+            <h2 style="font-weight: bold;font-size:calc(14px + 0.5vw + 0.5vh);" id="notes"></h2>
             <ol>
-                <li>All of the exercises must be done individually.
+                <li id="li1">
                 </li>
-                <li>We use <a class="link" href="https://quera.ir/dashboard/" target="_blank">
-                        Quera website</a> as a hub to get your answers to the problem sets.
+                <li id="li2">
                 </li>
-                <li>Copied answer equals to 0 points for both sides.
+                <li id="li3">Copied answer equals to 0 points for both sides.
                 </li>
             </ol>
         </div>

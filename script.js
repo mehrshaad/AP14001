@@ -434,7 +434,7 @@ function translateToEnglish() {
 
         var a = document.getElementById('ta1')
         a.innerText = 'TA'
-        a.style.fontFamily = 'IranYekan'
+        a.style.fontFamily = 'Consolas'
 
         var a = document.getElementById('email1')
         a.innerText = 'Email'
@@ -442,7 +442,7 @@ function translateToEnglish() {
 
         var a = document.getElementById('ta2')
         a.innerText = 'TA'
-        a.style.fontFamily = 'IranYekan'
+        a.style.fontFamily = 'Consolas'
 
         var a = document.getElementById('email2')
         a.innerText = 'Email'
@@ -450,7 +450,7 @@ function translateToEnglish() {
 
         var a = document.getElementById('ta3')
         a.innerText = 'TA'
-        a.style.fontFamily = 'IranYekan'
+        a.style.fontFamily = 'Consolas'
 
         var a = document.getElementById('email3')
         a.innerText = 'Email'
@@ -458,7 +458,7 @@ function translateToEnglish() {
 
         var a = document.getElementById('ta4')
         a.innerText = 'TA'
-        a.style.fontFamily = 'IranYekan'
+        a.style.fontFamily = 'Consolas'
 
         var a = document.getElementById('email4')
         a.innerText = 'Email'
@@ -466,7 +466,7 @@ function translateToEnglish() {
 
         var a = document.getElementById('ta5')
         a.innerText = 'TA'
-        a.style.fontFamily = 'IranYekan'
+        a.style.fontFamily = 'Consolas'
 
         var a = document.getElementById('email5')
         a.innerText = 'Email'
@@ -482,7 +482,7 @@ function translateToEnglish() {
 
         var a = document.getElementById('ta7')
         a.innerText = 'TA'
-        a.style.fontFamily = 'IranYekan'
+        a.style.fontFamily = 'Consolas'
 
         var a = document.getElementById('email7')
         a.innerText = 'Email'
@@ -490,7 +490,7 @@ function translateToEnglish() {
 
         var a = document.getElementById('ta8')
         a.innerText = 'TA'
-        a.style.fontFamily = 'IranYekan'
+        a.style.fontFamily = 'Consolas'
 
         var a = document.getElementById('email8')
         a.innerText = 'Email'
@@ -498,35 +498,35 @@ function translateToEnglish() {
 
         var a = document.getElementById('erfan')
         a.innerText = 'Erfan Moharamzade'
-        a.style.fontFamily = 'IranYekan'
+        a.style.fontFamily = 'Consolas'
         
         var a = document.getElementById('amir')
         a.innerText = 'Amir Asqari'
-        a.style.fontFamily = 'IranYekan'
+        a.style.fontFamily = 'Consolas'
 
         var a = document.getElementById('mehrshad')
         a.innerText = 'Ali Dadashzade'
-        a.style.fontFamily = 'IranYekan'
+        a.style.fontFamily = 'Consolas'
 
         var a = document.getElementById('sara')
         a.innerText = 'Sara Mazaheri'
-        a.style.fontFamily = 'IranYekan'
+        a.style.fontFamily = 'Consolas'
 
         var a = document.getElementById('rahimi')
         a.innerText = 'Amirhossien Rahimi'
-        a.style.fontFamily = 'IranYekan'
+        a.style.fontFamily = 'Consolas'
 
         var a = document.getElementById('morteza')
         a.innerText = 'Morteza Ziabakhsh'
-        a.style.fontFamily = 'IranYekan'
+        a.style.fontFamily = 'Consolas'
 
         var a = document.getElementById('amirmohammad')
         a.innerText = 'Amirmohammad saberhabibi'
-        a.style.fontFamily = 'IranYekan'
+        a.style.fontFamily = 'Consolas'
 
         var a = document.getElementById('faeze')
         a.innerText = 'Faeze Rahmati'
-        a.style.fontFamily = 'IranYekan'
+        a.style.fontFamily = 'Consolas'
 
 
         

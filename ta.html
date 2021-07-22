@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/ta.css" type="text/css">
+    <script src="script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -14,13 +15,18 @@
 </head>
 
 <body>
-    <h2 class="cursive-font" style="text-align: center;margin-top: 2em;font-size:calc(12px + 0.5vw + 0.5vh);">Advanced
-        Programming
-        1400-1401<br>
-        <div class="credits">
-            <h4 style="font-size: calc(3px + 0.5vw + 0.5vh);">© 2021 Copyright Guilan University</h4>
-        </div>
-    </h2>
+    <h2 class="cursive-font" id="1" style="text-align: center;margin-top: 2em;font-size:calc(12px + 0.5vw + 0.5vh);">
+    <br>
+    <div class="credits">
+      <h4 style="font-size: calc(3px + 0.5vw + 0.5vh);"></h4>
+    </div>
+  </h2>
+  <div class="text-center">
+    <div class="btn-group" role="group">
+      <button type="button" id="en" class="btn-lang">English</button>
+      <button type="button" id="per" class="btn-lang">Persian</button>
+    </div>
+  </div>
     <hr>
     <div class="wrap">
         <div class="container">
@@ -39,8 +45,8 @@
                                 </ul>
                             </div>
                             <div class="card--title">
-                                <h3>Kiyan Rezaee</h3>
-                                <p>Head TA</p>
+                                <h3 id="kiyan"></h3>
+                                <p id="headta"></p>
                             </div>
                             <div class="card--desc">
                                 <hr />
@@ -49,7 +55,7 @@
                             <div class="card--btn">
                                 <a href="#0">
                                     <span class="moreinfo"><i class="fa fa-info-circle"></i></span>
-                                    <span class="fullprof">send email</span>
+                                    <span class="fullprof" id="email0"></span>
                                 </a>
                             </div>
                         </div>
@@ -65,7 +71,7 @@
                 <div class="col-sm-3">
                     <div class="card box-margin">
                         <div class="card-liner">
-                            <figure><img src="https://avatars.githubusercontent.com/u/60104751?v=4" alt="" />
+                            <figure><img src="" alt="" />
                             </figure>
                             <div class="card--social">
                                 <ul>
@@ -74,8 +80,8 @@
                                 </ul>
                             </div>
                             <div class="card--title">
-                                <h3>Mehrshad<br>Dadashzadeh</h3>
-                                <p>Teaching Assistant</p>
+                                <h3 id="erfan"></h3>
+                                <p id="ta1"></p>
                             </div>
                             <div class="card--desc">
                                 <hr />
@@ -83,7 +89,7 @@
                             <div class="card--btn">
                                 <a href="#0">
                                     <span class="moreinfo"><i class="fa fa-info-circle"></i></span>
-                                    <span class="fullprof">send email</span>
+                                    <span class="fullprof" id="email1"></span>
                                 </a>
                             </div>
                         </div>
@@ -92,7 +98,7 @@
                 <div class="col-sm-3">
                     <div class="card box-margin">
                         <div class="card-liner">
-                            <figure><img src="https://avatars.githubusercontent.com/u/60104751?v=4" alt="" />
+                            <figure><img src="" alt="" />
                             </figure>
                             <div class="card--social">
                                 <ul>
@@ -101,8 +107,8 @@
                                 </ul>
                             </div>
                             <div class="card--title">
-                                <h3>Mehrshad<br>Dadashzadeh</h3>
-                                <p>Teaching Assistant</p>
+                                <h3 id="amir"></h3>
+                                <p id="ta2"></p>
                             </div>
                             <div class="card--desc">
                                 <hr />
@@ -110,7 +116,7 @@
                             <div class="card--btn">
                                 <a href="#0">
                                     <span class="moreinfo"><i class="fa fa-info-circle"></i></span>
-                                    <span class="fullprof">send email</span>
+                                    <span class="fullprof" id="email2"></span>
                                 </a>
                             </div>
                         </div>
@@ -119,7 +125,7 @@
                 <div class="col-sm-3">
                     <div class="card box-margin">
                         <div class="card-liner">
-                            <figure><img src="https://avatars.githubusercontent.com/u/60104751?v=4" alt="" />
+                            <figure><img src="" alt="" />
                             </figure>
                             <div class="card--social">
                                 <ul>
@@ -128,8 +134,8 @@
                                 </ul>
                             </div>
                             <div class="card--title">
-                                <h3>Mehrshad<br>Dadashzadeh</h3>
-                                <p>Teaching Assistant</p>
+                                <h3 id="mehrshad"></h3>
+                                <p id="ta3"></p>
                             </div>
                             <div class="card--desc">
                                 <hr />
@@ -137,7 +143,7 @@
                             <div class="card--btn">
                                 <a href="#0">
                                     <span class="moreinfo"><i class="fa fa-info-circle"></i></span>
-                                    <span class="fullprof">send email</span>
+                                    <span class="fullprof" id="email3"></span>
                                 </a>
                             </div>
                         </div>
@@ -146,7 +152,7 @@
                 <div class="col-sm-3">
                     <div class="card box-margin">
                         <div class="card-liner">
-                            <figure><img src="https://avatars.githubusercontent.com/u/60104751?v=4" alt="" />
+                            <figure><img src="" alt="" />
                             </figure>
                             <div class="card--social">
                                 <ul>
@@ -155,8 +161,8 @@
                                 </ul>
                             </div>
                             <div class="card--title">
-                                <h3>Mehrshad<br>Dadashzadeh</h3>
-                                <p>Teaching Assistant</p>
+                                <h3 id="sara"></h3>
+                                <p id="ta4"></p>
                             </div>
                             <div class="card--desc">
                                 <hr />
@@ -164,7 +170,7 @@
                             <div class="card--btn">
                                 <a href="#0">
                                     <span class="moreinfo"><i class="fa fa-info-circle"></i></span>
-                                    <span class="fullprof">send email</span>
+                                    <span class="fullprof" id="email4"></span>
                                 </a>
                             </div>
                         </div>
@@ -173,13 +179,12 @@
             </div>
         </div>
 
-
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
                     <div class="card box-margin">
                         <div class="card-liner">
-                            <figure><img src="https://avatars.githubusercontent.com/u/60104751?v=4" alt="" />
+                            <figure><img src="" alt="" />
                             </figure>
                             <div class="card--social">
                                 <ul>
@@ -188,8 +193,8 @@
                                 </ul>
                             </div>
                             <div class="card--title">
-                                <h3>Mehrshad<br>Dadashzadeh</h3>
-                                <p>Teaching Assistant</p>
+                                <h3 id="rahimi"></h3>
+                                <p id="ta5"></p>
                             </div>
                             <div class="card--desc">
                                 <hr />
@@ -197,7 +202,7 @@
                             <div class="card--btn">
                                 <a href="#0">
                                     <span class="moreinfo"><i class="fa fa-info-circle"></i></span>
-                                    <span class="fullprof">send email</span>
+                                    <span class="fullprof" id="email5"></span>
                                 </a>
                             </div>
                         </div>
@@ -206,7 +211,7 @@
                 <div class="col-sm-3">
                     <div class="card box-margin">
                         <div class="card-liner">
-                            <figure><img src="https://avatars.githubusercontent.com/u/60104751?v=4" alt="" />
+                            <figure><img src="" alt="" />
                             </figure>
                             <div class="card--social">
                                 <ul>
@@ -215,8 +220,8 @@
                                 </ul>
                             </div>
                             <div class="card--title">
-                                <h3>Mehrshad<br>Dadashzadeh</h3>
-                                <p>Teaching Assistant</p>
+                                <h3 id="morteza"></h3>
+                                <p id="ta6"></p>
                             </div>
                             <div class="card--desc">
                                 <hr />
@@ -224,7 +229,7 @@
                             <div class="card--btn">
                                 <a href="#0">
                                     <span class="moreinfo"><i class="fa fa-info-circle"></i></span>
-                                    <span class="fullprof">send email</span>
+                                    <span class="fullprof" id="email6"></span>
                                 </a>
                             </div>
                         </div>
@@ -233,7 +238,7 @@
                 <div class="col-sm-3">
                     <div class="card box-margin">
                         <div class="card-liner">
-                            <figure><img src="https://avatars.githubusercontent.com/u/60104751?v=4" alt="" />
+                            <figure><img src="" alt="" />
                             </figure>
                             <div class="card--social">
                                 <ul>
@@ -242,8 +247,8 @@
                                 </ul>
                             </div>
                             <div class="card--title">
-                                <h3>Mehrshad<br>Dadashzadeh</h3>
-                                <p>Teaching Assistant</p>
+                                <h3 id="amirmohammad"></h3>
+                                <p id="ta7"></p>
                             </div>
                             <div class="card--desc">
                                 <hr />
@@ -251,7 +256,7 @@
                             <div class="card--btn">
                                 <a href="#0">
                                     <span class="moreinfo"><i class="fa fa-info-circle"></i></span>
-                                    <span class="fullprof">send email</span>
+                                    <span class="fullprof" id="email7"></span>
                                 </a>
                             </div>
                         </div>
@@ -260,7 +265,7 @@
                 <div class="col-sm-3">
                     <div class="card box-margin">
                         <div class="card-liner">
-                            <figure><img src="https://avatars.githubusercontent.com/u/60104751?v=4" alt="" />
+                            <figure><img src="" alt="" />
                             </figure>
                             <div class="card--social">
                                 <ul>
@@ -269,8 +274,8 @@
                                 </ul>
                             </div>
                             <div class="card--title">
-                                <h3>Mehrshad<br>Dadashzadeh</h3>
-                                <p>Teaching Assistant</p>
+                                <h3 id="faeze"></h3>
+                                <p id="ta8"></p>
                             </div>
                             <div class="card--desc">
                                 <hr />
@@ -278,7 +283,7 @@
                             <div class="card--btn">
                                 <a href="#0">
                                     <span class="moreinfo"><i class="fa fa-info-circle"></i></span>
-                                    <span class="fullprof">send email</span>
+                                    <span class="fullprof" id="email8"></span>
                                 </a>
                             </div>
                         </div>

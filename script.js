@@ -135,6 +135,124 @@ function translateToPersian() {
         a.style.fontFamily = 'IranYekan'
     } catch { }
 
+
+    // TAT
+    try{
+        var a = document.getElementById('kiyan')
+        a.innerText = 'کیان رضایی'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('headta')
+        a.innerText = 'مسئول کمک مدرسین'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('email0')
+        a.innerText = 'ایمیل'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('ta1')
+        a.innerText = 'کمک مدرس'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('email1')
+        a.innerText = 'ایمیل'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('ta2')
+        a.innerText = 'کمک مدرس'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('email2')
+        a.innerText = 'ایمیل'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('ta3')
+        a.innerText = 'کمک مدرس'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('email3')
+        a.innerText = 'ایمیل'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('ta4')
+        a.innerText = 'کمک مدرس'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('email4')
+        a.innerText = 'ایمیل'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('ta5')
+        a.innerText = 'کمک مدرس'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('email5')
+        a.innerText = 'ایمیل'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('ta6')
+        a.innerText = 'کمک مدرس'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('email6')
+        a.innerText = 'ایمیل'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('ta7')
+        a.innerText = 'کمک مدرس'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('email7')
+        a.innerText = 'ایمیل'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('ta8')
+        a.innerText = 'کمک مدرس'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('email8')
+        a.innerText = 'ایمیل'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('erfan')
+        a.innerText = 'عرفان محرم زاده'
+        a.style.fontFamily = 'IranYekan'
+        
+        var a = document.getElementById('amir')
+        a.innerText = 'امیر اصغری'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('mehrshad')
+        a.innerText = 'علی داداش زاده'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sara')
+        a.innerText = 'سارا مظاهری'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('rahimi')
+        a.innerText = 'امیر حسین رحیمی'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('morteza')
+        a.innerText = 'مرتضی ضیابخش'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('amirmohammad')
+        a.innerText = 'امیرمحمد صابرحبیبی'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('faeze')
+        a.innerText = 'فائزه رحمتی'
+        a.style.fontFamily = 'IranYekan'
+
+
+
+    }
+    catch{
+
+    }
+
 }
 
 
@@ -298,6 +416,127 @@ function translateToEnglish() {
         a.style.fontFamily = "Consolas"
         a.innerHTML = `Problem Set: 1 point (for each)`
     } catch { }
+
+
+        // TAT
+    try{
+        var a = document.getElementById('kiyan')
+        a.innerText = 'kiyan rezaee'
+        a.style.fontFamily = 'Consolas'
+
+        var a = document.getElementById('headta')
+        a.innerText = 'Head TA'
+        a.style.fontFamily = 'Consolas'
+
+        var a = document.getElementById('email0')
+        a.innerText = 'Email'
+        a.style.fontFamily = 'Consolas'
+
+        var a = document.getElementById('ta1')
+        a.innerText = 'TA'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('email1')
+        a.innerText = 'Email'
+        a.style.fontFamily = 'Consolas'
+
+        var a = document.getElementById('ta2')
+        a.innerText = 'TA'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('email2')
+        a.innerText = 'Email'
+        a.style.fontFamily = 'Consolas'
+
+        var a = document.getElementById('ta3')
+        a.innerText = 'TA'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('email3')
+        a.innerText = 'Email'
+        a.style.fontFamily = 'Consolas'
+
+        var a = document.getElementById('ta4')
+        a.innerText = 'TA'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('email4')
+        a.innerText = 'Email'
+        a.style.fontFamily = 'Consolas'
+
+        var a = document.getElementById('ta5')
+        a.innerText = 'TA'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('email5')
+        a.innerText = 'Email'
+        a.style.fontFamily = 'Consolas'
+
+        var a = document.getElementById('ta6')
+        a.innerText = 'TA'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('email6')
+        a.innerText = 'Email'
+        a.style.fontFamily = 'Consolas'
+
+        var a = document.getElementById('ta7')
+        a.innerText = 'TA'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('email7')
+        a.innerText = 'Email'
+        a.style.fontFamily = 'Consolas'
+
+        var a = document.getElementById('ta8')
+        a.innerText = 'TA'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('email8')
+        a.innerText = 'Email'
+        a.style.fontFamily = 'Consolas'
+
+        var a = document.getElementById('erfan')
+        a.innerText = 'Erfan Moharamzade'
+        a.style.fontFamily = 'IranYekan'
+        
+        var a = document.getElementById('amir')
+        a.innerText = 'Amir Asqari'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('mehrshad')
+        a.innerText = 'Ali Dadashzade'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sara')
+        a.innerText = 'Sara Mazaheri'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('rahimi')
+        a.innerText = 'Amirhossien Rahimi'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('morteza')
+        a.innerText = 'Morteza Ziabakhsh'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('amirmohammad')
+        a.innerText = 'Amirmohammad saberhabibi'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('faeze')
+        a.innerText = 'Faeze Rahmati'
+        a.style.fontFamily = 'IranYekan'
+
+
+        
+
+
+    }
+    catch{
+
+    }
+
 
 }
 window.addEventListener('load', function () {

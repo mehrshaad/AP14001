@@ -66,7 +66,7 @@ function translateToPersian() {
         a.innerHTML = `اطلاعات کامل در مورد پروژه های پایانی`
         var a = document.getElementById('10')
         a.classList.add('persian')
-        a.innerHTML = `تکلیف`
+        a.innerHTML = `صفحه تمرین ها`
         var a = document.getElementById('11')
         a.classList.add('persian')
         a.innerHTML = `اطلاعاتی در مورد تمرین های ارسالی در طول ترم`

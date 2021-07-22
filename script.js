@@ -1,3 +1,7 @@
+// Writers:
+// Ali Dadashzadeh & Kiyan Rezaee
+// Summer 2021
+
 isPersian = true;
 function translateToPersian() {
     var a = document.getElementById('per')

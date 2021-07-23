@@ -15,9 +15,8 @@ img {
 }
 
 .title {
-    font-family: Copperplate,
-        "Copperplate Gothic Light",
-        fantasy;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
     font-size: calc(16px + 0.5vw + 0.5vh);
     padding-top: 2%;
     color: var(--title-text);

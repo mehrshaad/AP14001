@@ -121,7 +121,6 @@
   font-size: .8em;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 2.2px;
 }
 
 .card--desc {
@@ -178,7 +177,6 @@
   color: #a5a5a5;
   padding: 1.4em 2em;
   border-top: 0px solid #eee;
-  letter-spacing: 0.5px;
   transition: all .4s ease;
   border-radius: 10px;
 }
@@ -277,7 +275,6 @@
   color: #ccc;
   font-weight: 300;
   font-size: .9em;
-  letter-spacing: .5px;
 }
 
 .cred a i {

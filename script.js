@@ -22,7 +22,7 @@ function translateToPersian() {
                 </div>
             </h2>`
 
-    //main
+    //main - per
     try {
         var a = document.getElementById('0')
         a.innerText = 'برنامه سازی پیشرفته'
@@ -72,7 +72,7 @@ function translateToPersian() {
         a.innerHTML = `اطلاعاتی در مورد تمرین های ارسالی در طول ترم`
     } catch { }
 
-    //syllabus
+    //syllabus - per
     try {
         var a = document.getElementById('12')
         a.innerText = 'رئوس مطالب'
@@ -84,26 +84,30 @@ function translateToPersian() {
         a.innerText = 'محتویات'
         a.style.fontFamily = 'IranYekan'
 
+        var s = document.getElementsByTagName('th');
+        for (i = 0; i < s.length; i++) {
+            s[i].style.fontFamily = 'IranYekan';
+        }
+
+        var s = document.getElementsByTagName('td');
+        for (i = 0; i < s.length; i++) {
+            s[i].style.fontFamily = 'IranYekan';
+        }
 
         var a = document.getElementById('13')
         a.innerText = 'شماره'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('14')
         a.innerText = 'تاریخ'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('15')
         a.innerText = 'موضوع جلسه'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('16')
         a.innerText = 'مدرس(ها)'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('17')
         a.innerText = 'لینک'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('18')
         a.innerText = 'منابع'
@@ -135,7 +139,7 @@ function translateToPersian() {
         a.style.fontFamily = 'IranYekan'
     } catch { }
 
-    // TAT
+    //TAT - per
     try {
         var a = document.getElementById('titleTA')
         a.innerText = 'تیم حل تمرین'
@@ -218,45 +222,42 @@ function translateToPersian() {
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('erfan')
-        a.innerText = 'عرفان محرم زاده'
+        a.innerHTML = 'عرفان<br>محرم زاده'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('amir')
-        a.innerText = 'امیر اصغری'
+        a.innerHTML = 'امیر<br>اصغری'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('mehrshad')
-        a.innerText = 'علی داداش زاده'
+        a.innerHTML = 'علی<br>داداش زاده'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sara')
-        a.innerText = 'سارا مظاهری'
+        a.innerHTML = 'سارا<br>مظاهری'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('rahimi')
-        a.innerText = 'امیر حسین رحیمی'
+        a.innerHTML = 'امیرحسین<br>رحیمی'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('morteza')
-        a.innerText = 'مرتضی ضیابخش'
+        a.innerHTML = 'مرتضی<br>ضیابخش'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('amirmohammad')
-        a.innerText = 'امیرمحمد صابرحبیبی'
+        a.innerHTML = 'امیرمحمد<br>صابرحبیبی'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('faeze')
-        a.innerText = 'فائزه رحمتی'
+        a.innerHTML = 'فائزه<br>رحمتی'
         a.style.fontFamily = 'IranYekan'
-
-
-
     } catch { }
 
-    //homework page
+    //homework - per
     try {
         var a = document.getElementById('titleHomework')
-        a.innerText = 'صفحه تمرین ها'
+        a.innerText = 'تمرین ها'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('exer')
@@ -273,24 +274,47 @@ function translateToPersian() {
         a.style.direction = "rtl"
 
         var a = document.getElementById('li1')
-        a.innerText = 'باید نوشته شود'
+        a.innerText = 'تمرین ها به صورت انفرادی میباشند.'
         a.classList.add('persian')
         a.style.textAlign = 'right'
 
         var a = document.getElementById('li2')
-        a.innerText = 'باید نوشته شود'
+        a.innerText = ''
         a.classList.add('persian')
         a.style.textAlign = 'right'
 
         var a = document.getElementById('li3')
-        a.innerText = 'باید نوشته شود'
+        a.innerText = 'کپی برداری تمرین = نمره صفر'
         a.classList.add('persian')
         a.style.textAlign = 'right'
 
+        var a = document.getElementById('table')
+        a.style.direction = "rtl"
+
+        var s = document.getElementsByTagName('th');
+        for (i = 0; i < s.length; i++) {
+            s[i].style.fontFamily = 'IranYekan';
+        }
+
+        var s = document.getElementsByTagName('td');
+        for (i = 0; i < s.length; i++) {
+            s[i].style.fontFamily = 'IranYekan';
+        }
+
+        var a = document.getElementById('13')
+        a.innerText = 'شماره'
+
+        var a = document.getElementById('14')
+        a.innerText = 'فایل ها'
+
+        var a = document.getElementById('15')
+        a.innerText = 'تاریخ تحویل'
+
+        var a = document.getElementById('16')
+        a.innerText = 'نمرات'
+
     } catch { }
-
 }
-
 
 function translateToEnglish() {
     isPersian = false;
@@ -305,14 +329,14 @@ function translateToEnglish() {
     //header
     var a = document.getElementById('1')
     a.classList.remove('persian')
-    a.innerHTML = `Advanced Programming 1400-1401
+    a.innerHTML = `Advanced Programming 2020-21
                 <br>
                 <div class="credits">
-                <h4 style="font-size: calc(3px + 0.5vw + 0.5vh);">© 2021 Copyright Guilan University</h4>
+                <h4 style="font-size: calc(3px + 0.5vw + 0.5vh);">© Copyright Guilan University</h4>
                 </div>
             </h2>`
 
-    //main
+    //main - en
     try {
         var a = document.getElementById('0')
         a.innerText = 'Advanced Programming'
@@ -378,7 +402,7 @@ function translateToEnglish() {
         a.innerHTML = `More information about problem sets and their deadlines`
     } catch { }
 
-    //syllabus
+    //syllabus - en
     try {
         var a = document.getElementById('12')
         a.innerText = `Syllabus`
@@ -391,29 +415,29 @@ function translateToEnglish() {
         a.style.fontFamily = "Comic Sans MS"
         a.innerHTML = `Contents`
 
+        var s = document.getElementsByTagName('th');
+        for (i = 0; i < s.length; i++) {
+            s[i].style.fontFamily = 'Consolas';
+        }
+
+        var s = document.getElementsByTagName('td');
+        for (i = 0; i < s.length; i++) {
+            s[i].style.fontFamily = 'Arial';
+        }
+
         var a = document.getElementById('13')
-        a.classList.remove('persian')
-        a.style.fontFamily = "Consolas"
         a.innerHTML = `Number`
 
         var a = document.getElementById('14')
-        a.classList.remove('persian')
-        a.style.fontFamily = "Consolas"
         a.innerHTML = `Date`
 
         var a = document.getElementById('15')
-        a.classList.remove('persian')
-        a.style.fontFamily = "Consolas"
         a.innerHTML = `Subject`
 
         var a = document.getElementById('16')
-        a.classList.remove('persian')
-        a.style.fontFamily = "Consolas"
         a.innerHTML = `Instructor(s)`
 
         var a = document.getElementById('17')
-        a.classList.remove('persian')
-        a.style.fontFamily = "Consolas"
         a.innerHTML = `link`
 
         var a = document.getElementById('18')
@@ -454,165 +478,186 @@ function translateToEnglish() {
         a.innerHTML = `Problem Set: 1 point (for each)`
     } catch { }
 
-    // TAT
+    //TAT - en
     try {
         var a = document.getElementById('titleTA')
-        a.innerText = 'Teaching Assistance Team'
-        a.style.fontFamily = 'IranYekan'
+        a.innerText = 'Teaching Assistant Team'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('kiyan')
-        a.innerText = 'kiyan rezaee'
-        a.style.fontFamily = 'Consolas'
+        a.innerText = 'Kiyan Rezaee'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('headta')
-        a.innerText = 'Head TA'
-        a.style.fontFamily = 'Consolas'
+        a.innerText = 'Teaching Assistants Leader'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('email0')
         a.innerText = 'Email'
-        a.style.fontFamily = 'Consolas'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('ta1')
-        a.innerText = 'TA'
-        a.style.fontFamily = 'Consolas'
+        a.innerText = 'Teaching Assistant'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('email1')
         a.innerText = 'Email'
-        a.style.fontFamily = 'Consolas'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('ta2')
-        a.innerText = 'TA'
-        a.style.fontFamily = 'Consolas'
+        a.innerText = 'Teaching Assistant'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('email2')
         a.innerText = 'Email'
-        a.style.fontFamily = 'Consolas'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('ta3')
-        a.innerText = 'TA'
-        a.style.fontFamily = 'Consolas'
+        a.innerText = 'Teaching Assistant'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('email3')
         a.innerText = 'Email'
-        a.style.fontFamily = 'Consolas'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('ta4')
-        a.innerText = 'TA'
-        a.style.fontFamily = 'Consolas'
+        a.innerText = 'Teaching Assistant'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('email4')
         a.innerText = 'Email'
-        a.style.fontFamily = 'Consolas'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('ta5')
-        a.innerText = 'TA'
-        a.style.fontFamily = 'Consolas'
+        a.innerText = 'Teaching Assistant'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('email5')
         a.innerText = 'Email'
-        a.style.fontFamily = 'Consolas'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('ta6')
-        a.innerText = 'TA'
-        a.style.fontFamily = 'IranYekan'
+        a.innerText = 'Teaching Assistant'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('email6')
         a.innerText = 'Email'
-        a.style.fontFamily = 'Consolas'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('ta7')
-        a.innerText = 'TA'
-        a.style.fontFamily = 'Consolas'
+        a.innerText = 'Teaching Assistant'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('email7')
         a.innerText = 'Email'
-        a.style.fontFamily = 'Consolas'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('ta8')
-        a.innerText = 'TA'
-        a.style.fontFamily = 'Consolas'
+        a.innerText = 'Teaching Assistant'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('email8')
         a.innerText = 'Email'
-        a.style.fontFamily = 'Consolas'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('erfan')
-        a.innerText = 'Erfan Moharamzade'
-        a.style.fontFamily = 'Consolas'
+        a.innerHTML = 'Erfan<br>Moharamzadeh'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('amir')
-        a.innerText = 'Amir Asqari'
-        a.style.fontFamily = 'Consolas'
+        a.innerHTML = 'Amir<br>Asghari'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('mehrshad')
-        a.innerText = 'Ali Dadashzade'
-        a.style.fontFamily = 'Consolas'
+        a.innerHTML = 'Ali<br>Dadashzadeh'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('sara')
-        a.innerText = 'Sara Mazaheri'
-        a.style.fontFamily = 'Consolas'
+        a.innerHTML = 'Sara<br>Mazaheri'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('rahimi')
-        a.innerText = 'Amirhossien Rahimi'
-        a.style.fontFamily = 'Consolas'
+        a.innerHTML = 'Amirhossien<br>Rahimi'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('morteza')
-        a.innerText = 'Morteza Ziabakhsh'
-        a.style.fontFamily = 'Consolas'
+        a.innerHTML = 'Morteza<br>Ziabakhsh'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('amirmohammad')
-        a.innerText = 'Amirmohammad saberhabibi'
-        a.style.fontFamily = 'Consolas'
+        a.innerHTML = 'Amirmohammad<br>Saberhabibi'
+        a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('faeze')
-        a.innerText = 'Faeze Rahmati'
-        a.style.fontFamily = 'Consolas'
-
-
-
-
-
+        a.innerHTML = 'Faeze<br>Rahmati'
+        a.style.fontFamily = 'Segoe UI'
     } catch { }
 
-    //homework page - font must change
+    //homework - en
     try {
         var a = document.getElementById('titleHomework')
-        a.innerText = 'Homework page'
-        a.style.fontFamily = ''
+        a.innerText = 'Homework'
+        a.style.fontFamily = 'Comic Sans MS'
 
         var a = document.getElementById('exer')
         a.innerText = 'Exercise'
-        a.style.fontFamily = ''
+        a.style.fontFamily = 'Comic Sans MS'
 
         var a = document.getElementById('notes')
-        a.innerText = 'notes'
+        a.innerText = 'NOTES'
+        a.classList.remove('persian')
         a.style.textAlign = 'left'
 
         var a = document.getElementById('notes_')
+        a.classList.remove('persian')
         a.style.direction = "ltr"
 
         var a = document.getElementById('li1')
         a.innerText = 'All of the exercises must be done individually.'
+        a.classList.remove('persian')
         a.style.textAlign = 'left'
 
         var a = document.getElementById('li2')
+        a.classList.remove('persian')
         a.innerText = ''
         a.style.textAlign = 'left'
 
         var a = document.getElementById('li3')
         a.innerText = 'Copied answer equals to 0 points for both sides.'
+        a.classList.remove('persian')
         a.style.textAlign = 'left'
 
+        var a = document.getElementById('table')
+        a.style.direction = "ltr"
+
+        var s = document.getElementsByTagName('th');
+        for (i = 0; i < s.length; i++) {
+            s[i].style.fontFamily = 'Consolas';
+        }
+
+        var s = document.getElementsByTagName('td');
+        for (i = 0; i < s.length; i++) {
+            s[i].style.fontFamily = 'Arial';
+        }
+
+        var a = document.getElementById('13')
+        a.innerText = 'Number'
+
+        var a = document.getElementById('14')
+        a.innerText = 'Files'
+
+        var a = document.getElementById('15')
+        a.innerText = 'Deadline'
+
+        var a = document.getElementById('16')
+        a.innerText = 'Scores'
 
     } catch { }
-
 }
 
 window.onload = function () {
-    if (isPersian) {
+    if (isPersian)
         translateToPersian()
-    }
-    else {
+    else
         translateToEnglish()
-    }
 }

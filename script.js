@@ -731,11 +731,11 @@ function translateToEnglish() {
         }
         var a = document.getElementById('title-project')
         a.innerText = 'Final Projects'
-        a.style.fontFamily = 'Comic Sans MS'
 
 
         var a = document.getElementById('1000')
         a.innerText = 'Final Projects'
+        a.style.fontFamily = 'Comic Sans MS'
 
 
         var a = document.getElementById('notes')

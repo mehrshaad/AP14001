@@ -2,7 +2,7 @@
 // Ali Dadashzadeh & Kiyan Rezaee
 // Summer 2021
 
-isPersian = false;
+isPersian = true;
 function translateToPersian() {
     var a = document.getElementById('per')
     a.classList.add('persian')

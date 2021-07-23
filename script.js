@@ -481,7 +481,7 @@ function translateToEnglish() {
     //TAT - en
     try {
         var a = document.getElementById('titleTA')
-        a.innerText = 'Teaching Assistant Team'
+        a.innerText = 'Head Teaching Assistant'
         a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('kiyan')

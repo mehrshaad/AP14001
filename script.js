@@ -31,7 +31,7 @@ function translateToPersian() {
         var a = document.getElementById('2')
         a.classList.add('persian')
         a.innerHTML = `مدرس: <a class="link"
-        href="https://staff.guilan.ac.ir/eskandari/" target="_blank">دکتر اسکندری</a>`
+        href="https://staff.guilan.ac.ir/eskandari/" target="_blank">دکتر صادق اسکندری</a>`
 
         //
         var a = document.getElementById('3')

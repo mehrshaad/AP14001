@@ -2,7 +2,7 @@
 // Ali Dadashzadeh & Kiyan Rezaee
 // Summer 2021
 
-isPersian = true;
+isPersian = false;
 function translateToPersian() {
     var a = document.getElementById('per')
     a.classList.add('persian')
@@ -15,7 +15,7 @@ function translateToPersian() {
     //header
     var a = document.getElementById('1')
     a.classList.add('persian')
-    a.innerHTML = `برنامه سازی پیشرفته 1400-1401
+    a.innerHTML = `برنامه سازی پیشرفته 14001
                 <br>
                 <div class="credits">
                 <h4 class="persian" style="font-size: calc(3px + 0.5vw + 0.5vh);font-family: 'IranYekan';">دانشگاه گیلان - دانشکده علوم ریاضی</h4>
@@ -387,7 +387,6 @@ function translateToPersian() {
 }
 
 function translateToEnglish() {
-    isPersian = false;
     var a = document.getElementById('per')
     a.classList.remove('persian')
     a.style.fontFamily = "Comic Sans MS"
@@ -399,10 +398,10 @@ function translateToEnglish() {
     //header
     var a = document.getElementById('1')
     a.classList.remove('persian')
-    a.innerHTML = `Advanced Programming 2020-21
+    a.innerHTML = `Advanced Programming 2021-22 / Semester Fall
                 <br>
                 <div class="credits">
-                <h4 style="font-size: calc(3px + 0.5vw + 0.5vh);">© Copyright Guilan University</h4>
+                <h4 style="font-size: calc(3px + 0.5vw + 0.5vh);">Guilan University - Faculty of Mathematics</h4>
                 </div>
             </h2>`
 
@@ -420,17 +419,17 @@ function translateToEnglish() {
         var a = document.getElementById('3')
         a.classList.remove('persian')
         a.style.direction = "ltr"
-        a.innerHTML = `Nowadays, programming is one of the most needed skills. In this lesson we'll learn some topics of
+        a.innerHTML = `Nowadays, programming is one of the most needed skills. In this course, we'll learn some topics of
       advanced programming. Object oriented programming, data structure and algorithm analyzing are the most important
       ones.
       Although, all of these topics are independent from a special programming language, but we use one of the most
       liked
       programming
       languages, which is <a class="link" href="https://www.python.org/" target="_blank">Python!</a> We chose python
-      because it's simple, likeable and open source. In this
-      lesson,
+      because it's simple and open source. In this
+      course,
       most of our focus
-      is on your teamworks and scientific activities. You'll learn object oriented programming, and you'll have to
+      is on your teamworks and programming activities. You'll learn object oriented programming, and you'll have to
       implement a project as a final teamwork result. At the end you'll be expected to write classes, use data
       structures and
       design a graphical user
@@ -518,8 +517,7 @@ function translateToEnglish() {
         var a = document.getElementById('19')
         a.classList.remove('persian')
         a.style.fontFamily = "Consolas"
-        a.innerHTML = `Although we don't use any source book for advanced programming, but you
-            can read these books for improving your skills.`
+        a.innerHTML = `Although we don't use any resource books for this course, it has been recommended to you to read these books below.`
         a.style.direction = "ltr"
 
         var a = document.getElementById('20')
@@ -551,7 +549,7 @@ function translateToEnglish() {
     //TAT - en
     try {
         var a = document.getElementById('titleTA')
-        a.innerText = 'Head Teaching Assistant'
+        a.innerText = 'Teaching Assistant Team'
         a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('kiyan')
@@ -559,7 +557,7 @@ function translateToEnglish() {
         a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('headta')
-        a.innerText = 'Teaching Assistants Leader'
+        a.innerText = 'Head Teaching Assistant'
         a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('email0')
@@ -689,8 +687,8 @@ function translateToEnglish() {
 
         var a = document.getElementById('li2')
         a.classList.remove('persian')
-        a.innerHTML = `We use <a class="link" href="https://quera.ir/dashboard/" target="_blank">
-                        Quera website</a> as a hub to get your answers to the problem sets.`
+        a.innerHTML = `You should submit your answers to problem sets at <a class="link" href="https://quera.ir/dashboard/" target="_blank">
+                        Quera website</a>.`
         a.style.textAlign = 'left'
 
         var a = document.getElementById('li3')
@@ -765,7 +763,7 @@ function translateToEnglish() {
 
 
         var a = document.getElementById('1004')
-        a.innerText = `You have to design a graphical user interface (GUI) for your project.`
+        a.innerText = `You'll have to design a graphical user interface (GUI) for your project.`
         a.style.textAlign = 'justify'
 
 

@@ -279,7 +279,8 @@ function translateToPersian() {
         a.style.textAlign = 'right'
 
         var a = document.getElementById('li2')
-        a.innerText = ''
+        a.innerHTML = `برای ارسال پاسخ تمرین ها به  <a class="link" href="https://quera.ir/dashboard/" target="_blank">
+                       وب سایت کوئرا</a> مراجعه کنید.`
         a.classList.add('persian')
         a.style.textAlign = 'right'
 
@@ -312,6 +313,75 @@ function translateToPersian() {
 
         var a = document.getElementById('16')
         a.innerText = 'نمرات'
+
+    } catch { }
+
+    //project - per
+    try {
+        for (i = 1000; i < 1012; i++) {
+            var a = document.getElementById(i.toString())
+            a.style.fontFamily = 'IranYekan'
+        }
+
+        var a = document.getElementById('title-project')
+        a.innerText = 'پروژه های پایانی'
+
+        var a = document.getElementById('1000')
+        a.innerText = 'پروژه های پایانی'
+
+        var a = document.getElementById('notes')
+        a.innerText = 'نکات'
+        a.style.fontFamily = 'IranYekan'
+        a.style.textAlign = 'right'
+
+        var a = document.getElementById('notes_')
+        a.style.direction = "rtl"
+
+        var a = document.getElementById('1001')
+        a.innerText = `پروژه های پایانی حتما باید با استفاده از مفاهیم شیء گرایی انجام شود . در زمان تحویل API ها از شما اخذ خواهد شد.`
+        a.style.textAlign = 'justify'
+
+        var a = document.getElementById('1002')
+        a.innerText = `استفاده از مفاهیم خارج از درس گفته شده به شرط تسلط به مطلب بلامانع است.`
+        a.style.textAlign = 'justify'
+
+
+        var a = document.getElementById('1003')
+        a.innerText = `حتما در زمان تحویل پروژه یک فایل شامل توضیحات کامل پروژه (توضیح خط به خط نیاز نمی باشد) آماده کنید.`
+        a.style.textAlign = 'justify'
+
+
+        var a = document.getElementById('1004')
+        a.innerText = `استفاده از ظاهر گرافیکی اجباری میباشد.`
+        a.style.textAlign = 'justify'
+
+
+        var a = document.getElementById('1005')
+        a.innerText = `کپی بودن پروژه کاملا ملموس خواهد بود . در صورتی که پروژه کپی باشد نمره درس ، صفر منظور میگردد.`
+        a.style.textAlign = 'justify'
+
+        //project
+        var a = document.getElementById('1006')
+        a.innerText = `پروژه اول`
+
+
+        var a = document.getElementById('1007')
+        a.innerText = `اطلاعات بیشتر در خصوص پروژه اول`
+
+        var a = document.getElementById('1008')
+        a.innerText = `اطلاعات بیشتر`
+
+
+        var a = document.getElementById('1009')
+        a.innerText = `پروژه دوم`
+
+
+        var a = document.getElementById('1010')
+        a.innerText = `اطلاعات بیشتر در خصوص پروژه دوم`
+
+
+        var a = document.getElementById('1011')
+        a.innerText = `اطلاعات بیشتر`
 
     } catch { }
 }
@@ -619,7 +689,8 @@ function translateToEnglish() {
 
         var a = document.getElementById('li2')
         a.classList.remove('persian')
-        a.innerText = ''
+        a.innerHTML = `We use <a class="link" href="https://quera.ir/dashboard/" target="_blank">
+                        Quera website</a> as a hub to get your answers to the problem sets.`
         a.style.textAlign = 'left'
 
         var a = document.getElementById('li3')
@@ -652,6 +723,79 @@ function translateToEnglish() {
         var a = document.getElementById('16')
         a.innerText = 'Scores'
 
+    } catch { }
+
+    //project - en
+    try {
+        for (i = 1000; i < 1012; i++) {
+            var a = document.getElementById(i.toString())
+            a.style.fontFamily = 'Consolas'
+        }
+        var a = document.getElementById('title-project')
+        a.innerText = 'Final Projects'
+        a.style.fontFamily = 'Comic Sans MS'
+
+
+        var a = document.getElementById('1000')
+        a.innerText = 'Final Projects'
+
+
+        var a = document.getElementById('notes')
+        a.innerText = 'NOTES'
+        a.style.textAlign = 'justify'
+        a.style.fontFamily = 'Consolas'
+
+        var a = document.getElementById('notes_')
+        a.style.direction = "ltr"
+
+
+        var a = document.getElementById('1001')
+        a.innerText = `You should use object oriented programming in your project and the application program interfaces (API) will be taken.`
+        a.style.textAlign = 'justify'
+
+
+        var a = document.getElementById('1002')
+        a.innerText = `You're not limited to taught topics for your project, only if you know them well.`
+        a.style.textAlign = 'justify'
+
+
+        var a = document.getElementById('1003')
+        a.innerText = `Prepare an explanation file for your project (no need to explain every line).`
+        a.style.textAlign = 'justify'
+
+
+        var a = document.getElementById('1004')
+        a.innerText = `You have to design a graphical user interface (GUI) for your project.`
+        a.style.textAlign = 'justify'
+
+
+        var a = document.getElementById('1005')
+        a.innerText = `In case we find out that you copied your project your score will be 0. Copied projects are clear as the sun!`
+        a.style.textAlign = 'justify'
+
+
+        //project
+        var a = document.getElementById('1006')
+        a.innerText = `Project One`
+
+
+        var a = document.getElementById('1007')
+        a.innerText = `Some information about project 1`
+
+        var a = document.getElementById('1008')
+        a.innerText = `More information`
+
+
+        var a = document.getElementById('1009')
+        a.innerText = `Project two`
+
+
+        var a = document.getElementById('1010')
+        a.innerText = `Some information about project 2`
+
+
+        var a = document.getElementById('1011')
+        a.innerText = `More information`
     } catch { }
 }
 

@@ -137,7 +137,7 @@ function translateToPersian() {
 
 
     // TAT
-    try{
+    try {
 
         var a = document.getElementById('titleTA')
         a.innerText = 'تیم حل تمرین'
@@ -222,7 +222,7 @@ function translateToPersian() {
         var a = document.getElementById('erfan')
         a.innerText = 'عرفان محرم زاده'
         a.style.fontFamily = 'IranYekan'
-        
+
         var a = document.getElementById('amir')
         a.innerText = 'امیر اصغری'
         a.style.fontFamily = 'IranYekan'
@@ -254,11 +254,11 @@ function translateToPersian() {
 
 
     }
-    catch{
+    catch {
 
     }
-        //homework page
-    try{
+    //homework page
+    try {
         var a = document.getElementById('titleHomework')
         a.innerText = 'صفحه تمرین ها'
         a.style.fontFamily = 'IranYekan'
@@ -275,7 +275,7 @@ function translateToPersian() {
         var a = document.getElementById('notes_')
         a.classList.add('persian')
         a.style.direction = "rtl"
-        
+
         var a = document.getElementById('li1')
         a.innerText = 'باید نوشته شود'
         a.classList.add('persian')
@@ -292,7 +292,7 @@ function translateToPersian() {
         a.style.textAlign = 'right'
 
     }
-    catch{
+    catch {
 
     }
 
@@ -461,8 +461,8 @@ function translateToEnglish() {
     } catch { }
 
 
-        // TAT
-    try{
+    // TAT
+    try {
 
         var a = document.getElementById('titleTA')
         a.innerText = 'Teaching Assistance Team'
@@ -547,7 +547,7 @@ function translateToEnglish() {
         var a = document.getElementById('erfan')
         a.innerText = 'Erfan Moharamzade'
         a.style.fontFamily = 'Consolas'
-        
+
         var a = document.getElementById('amir')
         a.innerText = 'Amir Asqari'
         a.style.fontFamily = 'Consolas'
@@ -577,16 +577,16 @@ function translateToEnglish() {
         a.style.fontFamily = 'Consolas'
 
 
-        
 
 
-    }
-    catch{
 
     }
+    catch {
 
-      //homework page - font must change
-      try{
+    }
+
+    //homework page - font must change
+    try {
         var a = document.getElementById('titleHomework')
         a.innerText = 'Homework page'
         a.style.fontFamily = ''
@@ -601,7 +601,7 @@ function translateToEnglish() {
 
         var a = document.getElementById('notes_')
         a.style.direction = "ltr"
-        
+
         var a = document.getElementById('li1')
         a.innerText = 'All of the exercises must be done individually.'
         a.style.textAlign = 'left'
@@ -613,24 +613,16 @@ function translateToEnglish() {
         var a = document.getElementById('li3')
         a.innerText = 'Copied answer equals to 0 points for both sides.'
         a.style.textAlign = 'left'
-        
+
 
     }
-    catch{
+    catch {
     }
 
 
 
 }
-window.addEventListener('load', function () {
-    document.getElementById('per').addEventListener('click', function () {
-        translateToPersian()
-    })
 
-    document.getElementById('en').addEventListener('click', function () {
-        translateToEnglish()
-    })
-})
 window.onload = function () {
     if (isPersian) {
         translateToPersian()

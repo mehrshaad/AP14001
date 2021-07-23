@@ -1,4 +1,4 @@
-// Writers:
+// Authors:
 // Ali Dadashzadeh & Kiyan Rezaee
 // Summer 2021
 
@@ -135,10 +135,8 @@ function translateToPersian() {
         a.style.fontFamily = 'IranYekan'
     } catch { }
 
-
     // TAT
     try {
-
         var a = document.getElementById('titleTA')
         a.innerText = 'تیم حل تمرین'
         a.style.fontFamily = 'IranYekan'
@@ -253,10 +251,8 @@ function translateToPersian() {
 
 
 
-    }
-    catch {
+    } catch { }
 
-    }
     //homework page
     try {
         var a = document.getElementById('titleHomework')
@@ -291,10 +287,7 @@ function translateToPersian() {
         a.classList.add('persian')
         a.style.textAlign = 'right'
 
-    }
-    catch {
-
-    }
+    } catch { }
 
 }
 
@@ -309,6 +302,7 @@ function translateToEnglish() {
     a.classList.remove('persian')
     a.style.fontFamily = "Comic Sans MS"
     a.innerHTML = 'English'
+    //header
     var a = document.getElementById('1')
     a.classList.remove('persian')
     a.innerHTML = `Advanced Programming 1400-1401
@@ -460,10 +454,8 @@ function translateToEnglish() {
         a.innerHTML = `Problem Set: 1 point (for each)`
     } catch { }
 
-
     // TAT
     try {
-
         var a = document.getElementById('titleTA')
         a.innerText = 'Teaching Assistance Team'
         a.style.fontFamily = 'IranYekan'
@@ -580,10 +572,7 @@ function translateToEnglish() {
 
 
 
-    }
-    catch {
-
-    }
+    } catch { }
 
     //homework page - font must change
     try {
@@ -615,11 +604,7 @@ function translateToEnglish() {
         a.style.textAlign = 'left'
 
 
-    }
-    catch {
-    }
-
-
+    } catch { }
 
 }
 

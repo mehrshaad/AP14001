@@ -1,8 +1,17 @@
-// Authors:
-// Ali Dadashzadeh & Kiyan Rezaee
-// Summer 2021
-
 isPersian = true;
+
+document.onreadystatechange = function () {
+    if (document.readyState !== "complete") {
+        document.querySelector("body").style.visibility = "hidden";
+        document.querySelector("html").style.backgroundImage = "radial-gradient(circle farthest-corner at center, #3C4B57 0%, #1C262B 100%)";
+        document.querySelector("#loader").style.visibility = "visible";
+    } else {
+        document.querySelector("#loader").style.display = "none";
+        document.querySelector("body").style.visibility = "visible";
+        document.querySelector("html").style.backgroundImage = 'url("../images/IMG_8865blur.jpg")';
+    }
+};
+
 function translateToPersian() {
     var a = document.getElementById('per')
     a.classList.add('persian')
@@ -33,13 +42,29 @@ function translateToPersian() {
         a.innerHTML = `مدرس: <a class="link"
         href="https://staff.guilan.ac.ir/eskandari/" target="_blank">دکتر صادق اسکندری</a>`
 
+        var a = document.getElementById('prevcourse1')
+        a.classList.add('persian')
+        a.innerHTML = `ترم 982`
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('prevcourse2')
+        a.classList.add('persian')
+        a.innerHTML = `ترم 991`
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('prevcourse3')
+        a.classList.add('persian')
+        a.innerHTML = `ترم 992`
+        a.style.fontFamily = 'IranYekan'
+
+
         //
         var a = document.getElementById('3')
         a.classList.add('persian')
         a.style.direction = "rtl"
         a.innerHTML = `
         امروزه، برنامه نویسی کامپیوتری به یکی از مهارتهای مورد نیاز در بسیاری از علوم تبدیل شده است. در این درس، با مفاهیم پیشرفته برنامه نویسی آشنا خواهیم شد. برنامه نویسی شیء گرا، ساختمان داده ها و طراحی و تحلیل الگوریتمهای کاربردی، از جمله مهمترین این مفاهیم هستند. اگرچه، تمامی این مفاهیم مستقل از یک زبان برنامه نویسی خاص قابل طرح می باشند، در این درس از زبان محبوب <a class="link" href="https://www.python.org/" target="_blank">پایتون</a> به عنوان ابزاری جهت پیاده سازی مفاهیم مورد نظر استفاده خواهیم کرد. دلیل این انتخاب، سادگی، محبوبیت و متن باز بودن این زبان برنامه نویسی است. در این درس، تمرکز ویژه ای بر فعالیت های عملی و گروهی خواهد بود. در طول یک ترم، دانشجویان با نحوه کدنویسی شیء گرا آشنا شده و این مفهوم را در قالب یک پروژه گروهی پایانی پیاده سازی خواهند کرد. در پایان این واحد درسی از دانشجویان محترم انتظار می رود تا بتوانند برای پروژه های بزرگ کلاس های مختلف را طراحی کرده، از ساختمان داده های مناسب برای آنها بهره برده و واسط های گرافیکی کارآمد طراحی کنند. جهت دریافت اطلاعات تکمیلی، به صفحه <a class="link"
-        href="https://mehrshaad.github.io/testsite/syllabus.html">رئوس مطالب</a> مراجعه نمائید
+        href="./syllabus.html">رئوس مطالب</a> مراجعه نمائید.
         `
         var a = document.getElementById('4')
         a.classList.add('persian')
@@ -74,6 +99,16 @@ function translateToPersian() {
 
     //syllabus - per
     try {
+
+        var a = document.getElementById('ref1')
+        a.innerText = 'برنامه نویسی پایتون: مقدمه ای بر علوم کامپیوتر'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('ref2')
+        a.innerText = ' چگونه مانند یک دانشمند کامپیوتر فکر کنیم'
+        a.style.fontFamily = 'IranYekan'
+
+
         var a = document.getElementById('12')
         a.innerText = 'رئوس مطالب'
 
@@ -146,7 +181,7 @@ function translateToPersian() {
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('kiyan')
-        a.innerText = 'کیان رضایی'
+        a.innerHTML = 'کیان<br>رضایی'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('headta')
@@ -416,6 +451,22 @@ function translateToEnglish() {
         a.innerHTML = `Instructor: <a class="link"
         href="https://staff.guilan.ac.ir/eskandari/" target="_blank">Dr. Sadegh Eskandari</a>`
 
+
+        var a = document.getElementById('prevcourse1')
+        a.classList.remove('persian')
+        a.innerHTML = `Semester 982`
+        a.style.fontFamily = "Comic Sans MS"
+
+        var a = document.getElementById('prevcourse2')
+        a.classList.remove('persian')
+        a.innerHTML = `Semester 991`
+        a.style.fontFamily = "Comic Sans MS"
+
+        var a = document.getElementById('prevcourse3')
+        a.classList.remove('persian')
+        a.innerHTML = `Semester 992`
+        a.style.fontFamily = "Comic Sans MS"
+
         var a = document.getElementById('3')
         a.classList.remove('persian')
         a.style.direction = "ltr"
@@ -435,7 +486,7 @@ function translateToEnglish() {
       design a graphical user
       interface for your project.
       For more information visit the <a class="link"
-        href="https://mehrshaad.github.io/testsite/syllabus.html">Syllabus</a> page.`
+        href="./syllabus.html">Syllabus</a> page.`
 
         var a = document.getElementById('4')
         a.classList.remove('persian')
@@ -448,7 +499,7 @@ function translateToEnglish() {
 
         var a = document.getElementById('6')
         a.classList.remove('persian')
-        a.innerHTML = `Teaching Assistant Team`
+        a.innerHTML = `Teaching Assistants Team`
 
         var a = document.getElementById('7')
         a.classList.remove('persian')
@@ -473,6 +524,15 @@ function translateToEnglish() {
 
     //syllabus - en
     try {
+
+        var a = document.getElementById('ref1')
+        a.innerText = 'Python Programming: An Introduction to Computer Science'
+        a.classList.remove('persian')
+
+        var a = document.getElementById('ref2')
+        a.innerText = 'How to Think Like a Computer Scientist: Learning with Python'
+        a.classList.remove('persian')
+
         var a = document.getElementById('12')
         a.innerText = `Syllabus`
 
@@ -549,11 +609,11 @@ function translateToEnglish() {
     //TAT - en
     try {
         var a = document.getElementById('titleTA')
-        a.innerText = 'Teaching Assistant Team'
+        a.innerText = 'Teaching Assistants Team'
         a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('kiyan')
-        a.innerText = 'Kiyan Rezaee'
+        a.innerHTML = 'Kiyan<br>Rezaee'
         a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('headta')

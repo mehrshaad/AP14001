@@ -3,12 +3,10 @@ isPersian = true;
 document.onreadystatechange = function () {
     if (document.readyState !== "complete") {
         document.querySelector("body").style.visibility = "hidden";
-        document.querySelector("html").style.backgroundImage = "radial-gradient(circle farthest-corner at center, #3C4B57 0%, #1C262B 100%)";
         document.querySelector("#loader").style.visibility = "visible";
     } else {
         document.querySelector("#loader").style.display = "none";
         document.querySelector("body").style.visibility = "visible";
-        document.querySelector("html").style.backgroundImage = 'url("../images/IMG_8865blur.jpg")';
     }
 };
 
